@@ -1,0 +1,143 @@
+/* point eng font */
+@font-face {
+	font-family: 'logo';
+	src: local('logo'),
+    url('./assets/font/Futura_XBlk_BT.woff') format('woff'),
+	url('./assets/font/Futura_XBlk_BT.woff2') format('woff2');
+	unicode-range: U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E, U+0041-005A, U+0061-007A, U+0030-0039;
+	font-display: fallback;
+}
+/* eng font */
+@font-face {
+	font-family: 'font';
+	font-weight: '900';
+	src: local('font'),
+	url('./assets/font/Montserrat-Black.woff2') format('woff2'),
+	url('./assets/font/Montserrat-Black.woff') format('woff');
+	unicode-range: U+0041-005A, U+0061-007A;
+	font-display: fallback;
+}
+
+@font-face {
+	font-family: 'font';
+	font-weight: '800';
+	src: local('font'),
+	url('./assets/font/Montserrat-ExtraBold.woff2') format('woff2'),
+	url('./assets/font/Montserrat-ExtraBold.woff') format('woff');
+	unicode-range: U+0041-005A, U+0061-007A;
+	font-display: fallback;
+}
+
+@font-face {
+	font-family: 'font';
+	font-weight: '700';
+	src: local('font'),
+	url('./assets/font/AppleSDGothicNeoB.woff2') format('woff2'),
+	url('./assets/font/AppleSDGothicNeoB.woff') format('woff');
+	unicode-range: U+0041-005A, U+0061-007A;
+	font-display: fallback;
+}
+
+@font-face {
+	font-family: 'font';
+	font-weight: '500';
+	src: local('font'),
+	url('./assets/font/Montserrat-Medium.woff2') format('woff2'),
+	url('./assets/font/Montserrat-Medium.woff') format('woff');
+	unicode-range: U+0041-005A, U+0061-007A;
+	font-display: fallback;
+}
+
+@font-face {
+	font-family: 'font';
+	font-weight: '300';
+	src: local('font'),
+	url('./assets/font/Montserrat-Regular.woff2') format('woff2'),
+	url('./assets/font/Montserrat-Regular.woff') format('woff');
+	unicode-range: U+0041-005A, U+0061-007A;
+	font-display: fallback;
+}
+/* kor font */
+@font-face {
+	font-family: 'font';
+	font-weight: '900';
+	src: local('font'),
+	url('./assets/font/AppleSDGothicNeoH.woff2') format('woff2'),
+	url('./assets/font/AppleSDGothicNeoH.woff') format('woff');
+	unicode-range: U+AC00-D7A3;
+	font-display: fallback;
+}
+
+@font-face {
+	font-family: 'font';
+	font-weight: '800';
+	src: local('font'),
+	url('./assets/font/AppleSDGothicNeoEB.woff2') format('woff2'),
+	url('./assets/font/AppleSDGothicNeoEB.woff') format('woff');
+	unicode-range: U+AC00-D7A3;
+	font-display: fallback;
+}
+
+@font-face {
+	font-family: 'font';
+	font-weight: '700';
+	src: local('font'),
+	url('./assets/font/AppleSDGothicNeoB.woff2') format('woff2'),
+	url('./assets/font/AppleSDGothicNeoB.woff') format('woff');
+	unicode-range: U+AC00-D7A3;
+	font-display: fallback;
+}
+
+@font-face {
+	font-family: 'font';
+	font-weight: '500';
+	src: local('font'),
+	url('./assets/font/AppleSDGothicNeoM.woff2') format('woff2'),
+	url('./assets/font/AppleSDGothicNeoM.woff') format('woff');
+	unicode-range: U+AC00-D7A3;
+	font-display: fallback;
+}
+
+@font-face {
+	font-family: 'font';
+	font-weight: '300';
+	src: local('font'),
+	url('./assets/font/AppleSDGothicNeoL.woff2') format('woff2'),
+	url('./assets/font/AppleSDGothicNeoL.woff') format('woff');
+	unicode-range: U+AC00-D7A3;
+	font-display: fallback;
+}
+
+$white-color: #fff;
+$black-color: #1d1d1b;
+$primary-color: #0036ff;
+$second-color: #ddbe9f;
+$bg-color: #efe7e7;
+$border-color: #1d1d1b;
+
+$size-s :14px;
+$size-m :18px;
+$size-l :24px;
+
+$align-top: top;
+$align-middle: middle;
+$align-bottom: bottom;
+$align-left: left;
+$align-center: center;
+$align-right: right;
+
+$logo: 'logo';
+$font: "font",sans-serif;
+body { background: $bg-color;}
+.cursor {
+	position: fixed;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: #f5f5f5;
+	pointer-events: none;
+	mix-blend-mode: difference;
+	z-index: 999;
+    opacity: 0;
+	transition: transform 0.1s;
+}
