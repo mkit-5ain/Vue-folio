@@ -27,7 +27,7 @@
     	text-align: center;
     	letter-spacing: -7px;
     	text-transform: uppercase;
-        opacity: 0;
+        // opacity: 0;
         transform: translate( 0px, 50px);
         transition: 1s ease;
         &.active { transform: translate( 0px, 0px); opacity: 1;

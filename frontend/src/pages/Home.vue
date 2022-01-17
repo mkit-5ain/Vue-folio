@@ -1,6 +1,6 @@
 <template>
     <div>
-        123
+        <ui-title/>
     </div>
 </template>
 
