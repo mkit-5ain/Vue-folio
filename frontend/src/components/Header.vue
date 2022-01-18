@@ -1,12 +1,12 @@
 <template>
     <header id="header" class="header">
         <div class="email">
-            <span>Mkit5ain@gmail.com</span>
+            <span>Lorem@gmail.com</span>
         </div>
         <div class="production next__line">
-            <span>Directors</span>
-            <span>Showreel</span>
-            <span>2022</span>
+            <span class="text"><span>Directors</span></span>
+            <span class="text"><span>Showreel</span></span>
+            <span class="text"><span>2022</span></span>
         </div>
         <div class="name">
             <span>Lorem</span>
@@ -15,9 +15,9 @@
             <span>*(Living)</span>
         </div>
         <div class="discription next__line">
-            <span>Mkit5ain is a Webpage Director</span>
-            <span>From Lim-Junesu</span>
-            <span>Founder of Good People</span>
+            <span class="text"><span>Mkit5ain is a Webpage Director</span></span>
+            <span class="text"><span>From Lim-Junesu</span></span>
+            <span class="text"><span>Founder of Good People</span></span>
         </div>
     </header>
 </template>
@@ -28,14 +28,55 @@
     }
 </script>
 <style lang="scss">
-    #header { position: relative; width: 100vw; height: calc( 100vh - 97.8px );
+    @keyframes nameFadein {
+        to {
+            transform: translate(0px, 0px);
+        }
+        from {
+            transform: translate(0px, 307px);
+        }
+    }
+    @keyframes pointFadein {
+        to {
+            transform: translate(0px, 0px);
+        }
+        from {
+            transform: translate(0px, 21px);
+        }
+    }
+    @keyframes discriptionFadein {
+        to {
+            transform: translate(0px, 0px);
+        }
+        from {
+            transform: translate(0px, 26px);
+        }
+    }
+    @keyframes emailFadein {
+        to {
+            transform: translate(0px, 0px);
+        }
+        from {
+            transform: translate(0px, 26px);
+        }
+    }
+    @keyframes productionFadein {
+        to {
+            transform: translate(0px, 0px);
+        }
+        from {
+            transform: translate(0px, 50px);
+        }
+    }
+    #header { position: relative; width: 100vw; height: calc( 100vh - 1vw );
         .email {
             position: absolute;
             left: 6vw;
-            bottom: 14vw;
+            bottom: 18vw;
             font-size: 1vw;
             font-weight: bold;
             letter-spacing: -.5px;
+            overflow: hidden;
             &:after {
                 content: '';
                 position: absolute;
@@ -46,36 +87,84 @@
                 height: 1px;
                 border-bottom: 1px solid #111;
             }
+            span {
+                display: block;
+                animation: .5s emailFadein forwards;
+                animation-delay: 2s;
+                transform: translate(0px, 26px);
+            }
         }
         .production {
             position: absolute;
-            bottom: 4vw;
+            bottom: 8vw;
             left: 6vw;
             font-size: 2.7vw;
             font-weight: bold;
-            line-height: 50px;
+            line-height: 2.6vw;
             letter-spacing: -1px;
+            overflow: hidden;
+            .text { overflow: hidden;
+                &:nth-child(2) {
+                    span { animation-delay: 2.2s; }
+                }
+                &:nth-child(3) {
+                    span { animation-delay: 2.3s }
+                }
+                span {
+                    animation: 1s productionFadein forwards; animation-delay: 2.1s;
+                    transform: translate(0px, 50px);
+                }
+            }
         }
         .name {
             position: absolute;
-            top: 8vw;
+            top: 11vw;
             right: 6vw;
             font-size: 12vw;
             font-weight: 900;
             letter-spacing: -1px;
+            overflow: hidden;
+            span {
+                display: block;
+                line-height: 9vw;
+                font-family: 'logo';
+                text-transform: uppercase;
+                animation: 1s nameFadein forwards;
+                animation-delay: .5s;
+                transform: translate(0px, 307px);
+            }
         }
         .point {
             position: absolute;
-            top: 22.5vw;
-            right: 7vw;
+            top: 20vw;
+            right: 6vw;
             letter-spacing: -1px;
+            overflow: hidden;
+            span {
+                display: block;
+                animation: .5s pointFadein forwards;
+                transform: translate(0px, 21px);
+            }
         }
         .discription {
             position: absolute;
-            bottom: 4vw;
+            bottom: 8vw;
             right: 6vw;
             font-size: 1vw;
             letter-spacing: -1px;
+            overflow: hidden;
+            .text { overflow: hidden;
+                &:nth-child(2) {
+                    span { animation-delay: 1.6s; }
+                }
+                &:nth-child(3) {
+                    span { animation-delay: 1.7s }
+                }
+                span {
+                    animation: 1s discriptionFadein forwards; animation-delay: 1.5s;
+                    transform: translate(0px, 26px);
+                }
+            }
         }
     }
 </style>

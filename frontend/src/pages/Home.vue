@@ -1,6 +1,9 @@
 <template>
+    <section class="title">
+        <p>SELECTED WORK</p>
+    </section>
     <div>
-        <ui-title/>
+        <!-- <ui-title/> -->
     </div>
 </template>
 
@@ -25,7 +28,7 @@
         mounted:function () {
             window.addEventListener("scroll", this.sectionHandle); // 스크롤 섹션 접근시 클래스추가
             this.horizontalScroll(); // 가로 스크롤
-            this.textCrossAnimation(); // 텍스트 교차 애니메이션
+            // this.textCrossAnimation(); // 텍스트 교차 애니메이션
         },
         methods: {
             sectionHandle: function () {
