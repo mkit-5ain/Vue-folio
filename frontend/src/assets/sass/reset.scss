@@ -1,6 +1,7 @@
 body,a, * { cursor: none!important; }
 body {
     font-family: $font;
+    color: $black-color;
     &::-webkit-scrollbar {
         display: none;
     }
@@ -10,6 +11,6 @@ ul,li,ol { list-style: none; }
 textarea { padding: 0px; resize: none; }
 img { vertical-align: top; }
 table th { font-weight: normal; }
-a { color: inherit; text-decoration: auto; }
+a { color: $black-color; text-decoration: auto; }
 i { font-style: normal; }
 button { background: none; border: 0px; padding: 0px; margin: 0px; }

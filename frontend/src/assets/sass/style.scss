@@ -14,7 +14,7 @@
 	src: local('font'),
 	url('./assets/font/Montserrat-Black.woff2') format('woff2'),
 	url('./assets/font/Montserrat-Black.woff') format('woff');
-	unicode-range: U+0041-005A, U+0061-007A;
+	unicode-range: U+0041-005A, U+0061-007A, U+0030-0039;
 	font-display: fallback;
 }
 
@@ -24,7 +24,7 @@
 	src: local('font'),
 	url('./assets/font/Montserrat-ExtraBold.woff2') format('woff2'),
 	url('./assets/font/Montserrat-ExtraBold.woff') format('woff');
-	unicode-range: U+0041-005A, U+0061-007A;
+	unicode-range: U+0041-005A, U+0061-007A, U+0030-0039;
 	font-display: fallback;
 }
 
@@ -34,7 +34,7 @@
 	src: local('font'),
 	url('./assets/font/AppleSDGothicNeoB.woff2') format('woff2'),
 	url('./assets/font/AppleSDGothicNeoB.woff') format('woff');
-	unicode-range: U+0041-005A, U+0061-007A;
+	unicode-range: U+0041-005A, U+0061-007A, U+0030-0039;
 	font-display: fallback;
 }
 
@@ -44,17 +44,17 @@
 	src: local('font'),
 	url('./assets/font/Montserrat-Medium.woff2') format('woff2'),
 	url('./assets/font/Montserrat-Medium.woff') format('woff');
-	unicode-range: U+0041-005A, U+0061-007A;
+	unicode-range: U+0041-005A, U+0061-007A, U+0030-0039;
 	font-display: fallback;
 }
 
 @font-face {
 	font-family: 'font';
-	font-weight: '300';
+	font-weight: '400';
 	src: local('font'),
 	url('./assets/font/Montserrat-Regular.woff2') format('woff2'),
 	url('./assets/font/Montserrat-Regular.woff') format('woff');
-	unicode-range: U+0041-005A, U+0061-007A;
+	unicode-range: U+0041-005A, U+0061-007A, U+0030-0039;
 	font-display: fallback;
 }
 /* kor font */
@@ -100,7 +100,7 @@
 
 @font-face {
 	font-family: 'font';
-	font-weight: '300';
+	font-weight: '400';
 	src: local('font'),
 	url('./assets/font/AppleSDGothicNeoL.woff2') format('woff2'),
 	url('./assets/font/AppleSDGothicNeoL.woff') format('woff');
@@ -140,4 +140,26 @@ body { background: $bg-color;}
 	z-index: 999;
     opacity: 0;
 	transition: transform 0.1s;
+}
+
+.next__line {
+	span { display: block; }
+}
+.hover { position: relative;
+	&:hover {
+		&:after { transform: scaleX(1); }
+	}
+	&:after {
+		content: '';
+		position: absolute;
+		bottom: -5px;
+		left: 0px;
+		z-index: 10;
+		width: 100%;
+		border-bottom: 1px solid #111;
+		transition: .5s ease;
+		transform: scaleX(0);
+		transform-origin: center center;
+
+	}
 }
