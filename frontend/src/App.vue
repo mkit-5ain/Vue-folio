@@ -1,7 +1,7 @@
 <template>
     <ui-nav/>
     <ui-header/>
-    <article id="container">
+    <article id="container" class="container">
         <router-view/>
     </article>
     <ui-footer/>
