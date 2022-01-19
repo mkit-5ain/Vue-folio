@@ -4,7 +4,7 @@
 .work { position: relative; align-items: baseline;
     .item { display: flex; margin-bottom: 17vw;
         &.t1 { justify-content: center; }
-        &.t2 { justify-content: center; align-items: center; }
+        &.t2 { justify-content: center; }
         &.t3 { justify-content: center; flex-direction: row-reverse;
             .discription { padding-left: 0px; padding-right: 15px; }
         }
@@ -95,6 +95,36 @@
             flex-direction: column;
             transform: translate(0px, -421px);
             transition: 2s ease;
+        }
+    }
+}
+.contact { position: relative; margin: 20vw 0px; padding-left: 21.7vw;
+    .inner { font-size: 2vw;
+        .sub-title {
+            height: 7vw;
+            line-height: 6.1vw;
+            padding-bottom: 2vw;
+            margin-bottom: 10vw;
+            border-bottom: 1px solid #111;
+            font-size: 9vw;
+            font-weight: bold;
+        }
+        p { position: relative; padding-bottom: 1vw; margin-bottom: 1vw; border-bottom: 1px solid #bbb;
+            &:before {
+                content: '';
+                position: absolute;
+                bottom: -1px;
+                left: 0px;
+                width: 100%;
+                border-bottom: 1px solid #111;
+                will-change: transform;
+                transform: scaleX(0);
+                transform-origin: right;
+                transition: transform .6s ease-out;
+            }
+            &:hover {
+                &:before { width: 100%;  transform: scaleX(1); transform-origin: left; }
+            }
         }
     }
 }
