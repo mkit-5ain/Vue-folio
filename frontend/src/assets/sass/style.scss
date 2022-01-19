@@ -127,8 +127,40 @@ $align-center: center;
 $align-right: right;
 
 $logo: 'logo';
-$font: "font",sans-serif;
-body { background: $bg-color;}
+$font: "font", sans-serif;
+
+@keyframes itemFadein {
+	to {
+		transform: translate(0px, 0px);
+	}
+	from {
+		transform: translate(0px, 21px);
+	}
+}
+@keyframes storyFadein {
+	to {
+		transform: translate(0px, 0px);
+	}
+	from {
+		transform: translate(0px, 4vw);
+	}
+}
+@keyframes ageFrontFadein {
+	to {
+		transform: translate(0px, -421px);
+	}
+	from {
+		transform: translate(0px, 7px);
+	}
+}
+@keyframes ageBackFadein {
+	to {
+		transform: translate(0px, -1280px);
+	}
+	from {
+		transform: translate(0px, 7px);
+	}
+}
 .cursor {
 	position: fixed;
 	width: 20px;
