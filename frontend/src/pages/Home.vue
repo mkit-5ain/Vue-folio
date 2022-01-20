@@ -80,10 +80,18 @@
             <div class="text">AGE</div>
         </div>
     </section>
-    <section class="story scroll-handler">
-        <p><span>Raised</span></p>
-        <p><span>all over</span></p>
-        <p><span>the World</span></p>
+    <section class="contact scroll-handler">
+        <ui-title/>
+        <div class="inner">
+            <div class="sub-title">Get in touch</div>
+            <p class="item"><span>Welcome To This Place</span></p>
+            <p class="item"><span>Trap House</span></p>
+            <p class="item"><span>ManoverBoard</span></p>
+            <p class="item"><span>Outhere Music</span></p>
+            <p class="item"><span>Paris In the Rain</span></p>
+            <p class="item"><span>My Universe</span></p>
+            <p class="item"><span>Creative Practices</span></p>
+        </div>
     </section>
 </template>
 
