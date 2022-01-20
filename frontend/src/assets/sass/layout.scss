@@ -1,5 +1,18 @@
-.container {
-    padding: 30vw 6vw;
+.container { position: relative; padding: 30vw 6vw;
+    &:before {
+        content: '';
+        position: fixed;
+        top: -10rem;
+        left: -10rem;
+        z-index: -1;
+        width: calc(100% + 100rem);
+        height: calc(100% + 100rem);
+        background-image: url('./assets/image/common/noise.png');
+        background-position: 50%;
+        pointer-events: none;
+        animation: noise 1s steps(2) infinite;
+        opacity: .5;
+    }
 }
 .work { position: relative; align-items: baseline;
     .item { display: flex; margin-bottom: 17vw;
@@ -99,24 +112,28 @@
     }
 }
 .contact { position: relative; margin: 20vw 0px; padding-left: 21.7vw;
-    .inner { font-size: 2vw;
+    .inner { font-size: 2vw; counter-reset: item;
         .sub-title {
             height: 7vw;
             line-height: 6.1vw;
             padding-bottom: 2vw;
             margin-bottom: 10vw;
-            border-bottom: 1px solid #111;
+            border-bottom: 4px solid #111;
             font-size: 9vw;
             font-weight: bold;
         }
-        p { position: relative; padding-bottom: 1vw; margin-bottom: 1vw; border-bottom: 1px solid #bbb;
+        p {
+            position: relative;
+            padding-bottom: 1vw;
+            margin-bottom: 1vw;
+            border-bottom: 1px solid #1d1d1b;
             &:before {
                 content: '';
                 position: absolute;
                 bottom: -1px;
                 left: 0px;
                 width: 100%;
-                border-bottom: 1px solid #111;
+                border-bottom: 1px solid #fbc6c2;
                 will-change: transform;
                 transform: scaleX(0);
                 transform-origin: right;
