@@ -129,6 +129,14 @@ $align-right: right;
 $logo: 'logo';
 $font: "font", sans-serif;
 
+@keyframes circleRotate {
+	from {
+		transform: rotateZ(360deg);
+	}
+	to {
+		transform: rotateZ(0deg);
+	}
+}
 @keyframes noise {
     0% {
         transform: translate3d(0, 9rem, 0)

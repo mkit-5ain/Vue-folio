@@ -14,6 +14,9 @@
         opacity: .5;
     }
 }
+.circle { position: sticky; top: 0px; text-align: right; transform: translate(45px, 27px);
+    img { width: 130px; animation: 10s circleRotate infinite linear; }
+}
 .work { position: relative; align-items: baseline;
     .item { display: flex; margin-bottom: 17vw;
         &.t1 { justify-content: center; }
