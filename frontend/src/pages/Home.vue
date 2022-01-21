@@ -1,4 +1,7 @@
 <template>
+    <section class="circle">
+        <img src="@/assets/image/common/circle.svg" alt="">
+    </section>
     <section class="work">
         <ui-title/>
         <div class="item t1 scroll-handler">

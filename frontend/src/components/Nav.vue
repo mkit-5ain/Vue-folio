@@ -3,7 +3,7 @@
         <ul>
             <li class="scale hover"><router-link to="/">H</router-link></li>
             <li class="scale hover"><router-link to="/Experience">E</router-link></li>
-            <li class="scale hover">GitHub</li>
+            <li class="scale"><img src="@/assets/image/common/github.png" alt="github"></li>
         </ul>
     </nav>
 </template>
@@ -21,11 +21,21 @@
             transform: translate(0px, 30px);
         }
     }
-    #nav { position: sticky; height: 1vw; padding: 4vw 6vw 0;
+    #nav {
+        position: sticky;
+        top: 0px;
+        height: 1.5vw;
+        z-index: 10;
+        padding: 4vw 6vw 0;
+        overflow: hidden;
         &:hover {
             ul { overflow: inherit;}
         }
-        ul { display: flex; position: relative; overflow: hidden;
+        ul {
+            display: flex;
+            position: relative; 
+            height: 1.5vw;
+            align-items: center;
             li { padding: 0px 5px; transform: translate(0px, 30px); animation: 1s navFadein forwards;
                 &:nth-child(2) { margin-left: 2vw; animation-delay: .2s; }
                 &:nth-child(3) {
