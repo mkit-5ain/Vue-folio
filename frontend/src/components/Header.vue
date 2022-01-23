@@ -68,7 +68,7 @@
             transform: translate(0px, 50px);
         }
     }
-    #header { position: relative; width: 100vw; height: calc( 100vh - 1vw );
+    #header { position: relative; width: 100vw; height: 100vh;
         .email {
             position: absolute;
             left: 6vw;
@@ -112,7 +112,7 @@
                 }
                 span {
                     animation: 1s productionFadein forwards; animation-delay: 2.1s;
-                    transform: translate(0px, 50px);
+                    transform: translate(0px, 2.3vw);
                 }
             }
         }

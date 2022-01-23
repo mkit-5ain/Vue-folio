@@ -1,8 +1,8 @@
 <template>
     <nav id="nav">
         <ul>
-            <li class="scale hover"><router-link to="/">H</router-link></li>
-            <li class="scale hover"><router-link to="/Experience">E</router-link></li>
+            <li class="scale hover"><router-link to="/">Home</router-link></li>
+            <li class="scale hover"><router-link to="/Experience">Experience</router-link></li>
             <li class="scale"><img src="@/assets/image/common/github.png" alt="github"></li>
         </ul>
     </nav>
@@ -24,19 +24,19 @@
     #nav {
         position: sticky;
         top: 0px;
-        height: 1.5vw;
+        height: 29px;
         z-index: 10;
-        padding: 4vw 6vw 0;
+        padding: 99px 6vw 0;
         overflow: hidden;
         &:hover {
             ul { overflow: inherit;}
         }
         ul {
             display: flex;
-            position: relative; 
-            height: 1.5vw;
+            position: relative;
+            height: 29px;
             align-items: center;
-            li { padding: 0px 5px; transform: translate(0px, 30px); animation: 1s navFadein forwards;
+            li { padding: 0px 5px; transform: translate(0px, 1.6vw); animation: 1s navFadein forwards;
                 &:nth-child(2) { margin-left: 2vw; animation-delay: .2s; }
                 &:nth-child(3) {
                     position: absolute;
