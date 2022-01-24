@@ -214,6 +214,22 @@ $font: "font", sans-serif;
 		transform: translate(0px, 7px);
 	}
 }
+@keyframes subTitleFadein {
+	to {
+		transform: translate(0px, 0px);
+	}
+	from {
+		transform: translate(0px, 135px);
+	}
+}
+@keyframes contactFadein {
+	to {
+		transform: translate(0px, 0px);
+	}
+	from {
+		transform: translate(0px, 60px);
+	}
+}
 .cursor {
 	position: fixed;
 	width: 20px;
