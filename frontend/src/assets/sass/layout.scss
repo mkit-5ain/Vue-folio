@@ -1,4 +1,4 @@
-.container { position: relative; padding: 30vw 6vw;
+.container { position: relative;
     &:before {
         content: '';
         position: fixed;
@@ -14,11 +14,12 @@
         opacity: .5;
     }
 }
-.circle { position: sticky; top: 0px; text-align: right; transform: translate(45px, 51px);
+.circle { position: sticky; top: 0px; text-align: right; transform: translate(45px, 50px);
     img { width: 130px; animation: 10s circleRotate infinite linear; }
 }
 .work { position: relative; align-items: baseline;
     .item { display: flex; margin-bottom: 17vw;
+        &:last-child { margin-bottom: 0px; }
         &.t1 { justify-content: center; }
         &.t2 { justify-content: center; }
         &.t3 { justify-content: center; flex-direction: row-reverse;
@@ -56,7 +57,7 @@
         }
     }
 }
-.story { margin: 0px 10vw; font-size: 4vw; font-weight: bold;
+.story { margin: 10vw 10vw; font-size: 4vw; font-weight: bold;
     &.active {
         p {
             @for $i from 1 to 15 {
@@ -77,11 +78,7 @@
         }
     }
 }
-.age {
-    position: relative;
-    display: flex;
-    margin: 20vw 0px;
-    padding-left: 21.7vw;
+.age { position: relative; padding-left: 21.7vw;
     &.active {
         .inner {
             .front {
@@ -112,11 +109,13 @@
             transform: translate(0px, -421px);
             transition: 2s ease;
         }
+        .text { letter-spacing: 10px; }
     }
 }
-.contact { position: relative; margin: 20vw 0px; padding-left: 21.7vw;
+.contact { position: relative; padding-left: 21.7vw;
     .inner { font-size: 2vw; counter-reset: item;
         .sub-title {
+            display: flex;
             height: 7vw;
             line-height: 6.1vw;
             padding-bottom: 2vw;
@@ -124,8 +123,11 @@
             border-bottom: 4px solid #111;
             font-size: 9vw;
             font-weight: bold;
+            > p { margin-right: 30px; overflow: hidden;
+                span { display: block; height: 100%; }
+            }
         }
-        p {
+        > p {
             position: relative;
             padding-bottom: 1vw;
             margin-bottom: 1vw;

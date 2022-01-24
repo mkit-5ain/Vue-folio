@@ -214,7 +214,6 @@ $font: "font", sans-serif;
 		transform: translate(0px, 7px);
 	}
 }
-
 .cursor {
 	position: fixed;
 	width: 20px;
@@ -227,7 +226,6 @@ $font: "font", sans-serif;
     opacity: 0;
 	transition: transform 0.1s;
 }
-
 .next__line {
 	span { display: block; }
 }
@@ -249,3 +247,22 @@ $font: "font", sans-serif;
 
 	}
 }
+.text__marquee__wrap {
+    position: relative;
+    width: 100vw;
+    height: 12vw;
+    margin: 0 auto;
+    border-top: 4px solid $black-color;
+    border-bottom: 4px solid $black-color;
+    overflow: hidden;
+	.text {
+		width: fit-content;
+		padding: 0 1vw;
+		font-size: 10vw;
+		font-weight: 900;
+		font-style: italic;
+		white-space: nowrap;
+		font-family:'logo';
+	}
+}
+.component__style { margin: 15vw 6vw;}
