@@ -26,7 +26,7 @@
         top: 0px;
         height: 29px;
         z-index: 10;
-        padding: 99px 6vw 0;
+        padding: 100px 6vw 0;
         overflow: hidden;
         &:hover {
             ul { overflow: inherit;}
