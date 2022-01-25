@@ -85,7 +85,7 @@
                 z-index: 10;
                 width: 100%;
                 height: 1px;
-                border-bottom: 1px solid #111;
+                border-bottom: 1px solid #1d1d1b;
             }
             span {
                 display: block;

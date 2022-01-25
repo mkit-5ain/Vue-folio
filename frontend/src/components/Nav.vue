@@ -3,7 +3,8 @@
         <ul>
             <li class="scale hover"><router-link to="/">Home</router-link></li>
             <li class="scale hover"><router-link to="/Experience">Experience</router-link></li>
-            <li class="scale"><img src="@/assets/image/common/github.png" alt="github"></li>
+            <li class="scale hover"><router-link to="/Contact">Contact</router-link></li>
+            <li class="scale"><a href="https://github.com/mkit-5ain" target="_blank"><img src="@/assets/image/common/github.png" alt="github"></a></li>
         </ul>
     </nav>
 </template>
@@ -37,13 +38,15 @@
             height: 29px;
             align-items: center;
             li { padding: 0px 5px; transform: translate(0px, 1.6vw); animation: 1s navFadein forwards;
+                a { font-weight: bold; }
                 &:nth-child(2) { margin-left: 2vw; animation-delay: .2s; }
-                &:nth-child(3) {
+                &:nth-child(3) { margin-left: 2vw; animation-delay: .4s; }
+                &:nth-child(4) {
                     position: absolute;
                     top: 0px;
                     right: 0px;
                     z-index: 10;
-                    animation-delay: .4s;
+                    animation-delay: .6s;
                 }
                 .router-link-active {
                     &:before {
