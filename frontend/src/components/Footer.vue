@@ -1,5 +1,8 @@
 <template>
     <section id="footer" class="footer">
+        <p>All Rights Reserved © 2022</p>
+        <p>All Rights Reserved © 2022</p>
+        <p>All Rights Reserved © 2022</p>
     </section>
 </template>
 
@@ -8,10 +11,5 @@
 </script>
 
 <style lang="scss" scoped>
-    #footer {
-        position: sticky;
-        min-height: 66px;
-        background: url('../assets/image/common/footer_bg.png') 0 0 no-repeat;
-        background-size: cover;
-    }
+    #footer { display: flex; justify-content: space-between; margin: 0vw 6vw 5vw; font-weight: bold; }
 </style>
