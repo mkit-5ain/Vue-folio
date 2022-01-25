@@ -23,7 +23,7 @@ const routes = [
     {
         path: '/experience',
         name: 'Experience',
-        component: () => import('../pages/Experience')
+        component: () => import('../pages/Experience.vue')
     }
 ]
 
