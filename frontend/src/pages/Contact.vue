@@ -1,5 +1,4 @@
 <template>
-    <div class="contact">
-        contact
-    </div>
+    <section id="contact">
+    </section>
 </template>
