@@ -126,15 +126,6 @@
                     }
                 }
             }
-            .item {
-                @for $i from 1 to 15 {
-                    &:nth-child(#{$i}){
-                        span { animation-delay: $i*.1s; }
-                    }
-                }
-                span { padding-bottom: 1vw;  animation: .5s contactFadein forwards;
-                }
-            }
         }
     }
     .inner { font-size: 2vw; counter-reset: item;
@@ -168,9 +159,9 @@
         }
         .item {
             position: relative;
+            padding-bottom: 1vw;
             margin-bottom: 1vw;
             border-bottom: 1px solid #1d1d1b;
-            overflow: hidden;
             &:before {
                 content: '';
                 position: absolute;
@@ -183,10 +174,21 @@
                 transform-origin: right;
                 transition: transform .6s ease-out;
             }
+            &:after {
+                content: '';
+                display: block;
+                position: absolute;
+                bottom: 20px;
+                right: 0px;
+                width: 30px;
+                height: 30px;
+                background: url('./assets/image/icon/i_more.svg') 0 0 no-repeat;
+                background-size: 30px;
+                transition: .5s ease;
+            }
             &:hover {
                 &:before { width: 100%;  transform: scaleX(1); transform-origin: left; }
-            }
-            span { display: block; transform: translate(0px, 60px); transition: .5s ease;
+                &:after { transform: rotate(-90deg); }
             }
         }
     }
