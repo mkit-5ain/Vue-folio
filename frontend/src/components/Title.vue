@@ -1,14 +1,15 @@
 <template>
     <section class="title">
-        <p>{{ title }}</p>
+        <p>{{ titleText }}</p>
     </section>
 </template>
 <script>
     export default {
         name: 'Title',
-        data () {
-            return {
-                title: 'selected work',
+        props: {
+            titleText: {
+                type: String,
+                default: () => "Selected work"
             }
         }
     }
