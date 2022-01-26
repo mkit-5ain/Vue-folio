@@ -5,7 +5,7 @@
             <img src="@/assets/image/common/circle.svg" alt="">
         </section>
         <section class="work component__style">
-            <ui-title/>
+            <Title titleText="selected work"></Title>
             <div class="item t1 scroll-handler">
                 <div class="image">
                     <div class="image__inner"><img src="@/assets/image/common/project/s_3.png" alt=""></div>
@@ -126,7 +126,7 @@
             <p><span>DIRECTORS IN THE WORLD.</span></p>
         </section>
         <section class="age component__style scroll-handler">
-            <ui-title/>
+            <Title titleText="about me"></Title>
             <div class="inner">
                 <div class="front">
                     <span>2</span>
@@ -142,7 +142,7 @@
             </div>
         </section>
         <section class="contact component__style scroll-handler">
-            <ui-title/>
+            <Title titleText="project list"></Title>
             <div class="inner">
                 <div class="sub-title">
                     <p><span>Get</span></p>
@@ -172,7 +172,7 @@
         name: 'Home',
         components: {
             'ui-header': Header,
-            'ui-title': Title
+            Title
         },
         mounted:function () {
             window.addEventListener("scroll", this.sectionHandle); // 스크롤 섹션 접근시 scroll-handler에 클래스추가
