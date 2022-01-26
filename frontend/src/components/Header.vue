@@ -72,7 +72,7 @@
         .email {
             position: absolute;
             left: 6vw;
-            bottom: 18vw;
+            bottom: 14vw;
             font-size: 1vw;
             font-weight: bold;
             letter-spacing: -.5px;
@@ -96,7 +96,7 @@
         }
         .production {
             position: absolute;
-            bottom: 8vw;
+            bottom: 4vw;
             left: 6vw;
             font-size: 2.7vw;
             font-weight: bold;
@@ -118,7 +118,7 @@
         }
         .name {
             position: absolute;
-            top: 11vw;
+            top: 16vw;
             right: 6vw;
             font-size: 12vw;
             font-weight: 900;
@@ -136,7 +136,7 @@
         }
         .point {
             position: absolute;
-            top: 20vw;
+            top: 25vw;
             right: 6vw;
             letter-spacing: -1px;
             overflow: hidden;
@@ -148,7 +148,7 @@
         }
         .discription {
             position: absolute;
-            bottom: 8vw;
+            bottom: 4vw;
             right: 6vw;
             font-size: 1vw;
             letter-spacing: -1px;
