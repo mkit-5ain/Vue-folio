@@ -1,9 +1,9 @@
 <template>
     <nav id="nav">
         <ul>
-            <li class="scale hover"><router-link to="/">Home</router-link></li>
-            <li class="scale hover"><router-link to="/Experience">Experience</router-link></li>
-            <li class="scale hover"><router-link to="/Contact">Contact</router-link></li>
+            <li class="scale hover"><router-link to="/">H</router-link></li>
+            <li class="scale hover"><router-link to="/Experience">E</router-link></li>
+            <li class="scale hover"><router-link to="/Contact">C</router-link></li>
             <li class="scale"><a href="https://github.com/mkit-5ain" target="_blank"><img src="@/assets/image/common/github.png" alt="github"></a></li>
         </ul>
     </nav>
@@ -23,8 +23,9 @@
         }
     }
     #nav {
-        position: sticky;
+        position: fixed;
         top: 0px;
+        width: calc(100% - 12vw);
         height: 29px;
         z-index: 10;
         padding: 100px 6vw 0;
