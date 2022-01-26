@@ -58,7 +58,7 @@
                 width: 4vw;
                 height: 3.4vw;
                 border-radius: 100%;
-                background: #111;
+                background: #f00;
                 transition: 1s cubic-bezier(0.32, 0.18, 0.26, 0.84);
                 opacity: 0;
                 box-shadow: 1px 1px 10px 0px #151414;
@@ -75,7 +75,7 @@
                 width: 30vw;
                 height: 8vw;
                 border-radius: 100px;
-                background: rgb(0, 54, 255, 0.8);
+                background: #ff0a01e6;
                 box-shadow: 1px 1px 1px 0px #151414;
                 transition: 1s ease-in-out;
                 opacity: 0;
