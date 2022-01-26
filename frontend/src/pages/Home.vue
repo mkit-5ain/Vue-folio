@@ -142,22 +142,22 @@
             </div>
         </section>
         <section class="contact component__style scroll-handler">
-        <ui-title/>
-        <div class="inner">
-            <div class="sub-title">
-                <p><span>Get</span></p>
-                <p><span>In</span></p>
-                <p><span>Touch</span></p>
+            <ui-title/>
+            <div class="inner">
+                <div class="sub-title">
+                    <p><span>Get</span></p>
+                    <p><span>In</span></p>
+                    <p><span>Touch</span></p>
+                </div>
+                <p class="item scale"><span>Welcome To This Place</span></p>
+                <p class="item scale"><span>Trap House</span></p>
+                <p class="item scale"><span>ManoverBoard</span></p>
+                <p class="item scale"><span>Outhere Music</span></p>
+                <p class="item scale"><span>Paris In the Rain</span></p>
+                <p class="item scale"><span>My Universe</span></p>
+                <p class="item scale"><span>Creative Practices</span></p>
             </div>
-            <p class="item scale"><span>Welcome To This Place</span></p>
-            <p class="item scale"><span>Trap House</span></p>
-            <p class="item scale"><span>ManoverBoard</span></p>
-            <p class="item scale"><span>Outhere Music</span></p>
-            <p class="item scale"><span>Paris In the Rain</span></p>
-            <p class="item scale"><span>My Universe</span></p>
-            <p class="item scale"><span>Creative Practices</span></p>
-        </div>
-    </section>
+        </section>
     </section>
 </template>
 
