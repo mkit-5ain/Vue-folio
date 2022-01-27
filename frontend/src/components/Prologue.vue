@@ -37,7 +37,7 @@
 	100% { transform: translate(0px, 0px); opacity: 1;}
 }
 
-.prologue { margin: 10vw 0;
+.prologue { margin-top: 15vw;
     .prologue--text {
         position: relative;
         height: 13vw;

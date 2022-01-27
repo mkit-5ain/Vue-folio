@@ -28,7 +28,6 @@
     		left: 0px;
     		width: 20px;
     		height: 1px;
-    		background: #111;
     	}
     }
 </style>
