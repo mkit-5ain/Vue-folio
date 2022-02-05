@@ -216,10 +216,10 @@ $font: "font", sans-serif;
 }
 @keyframes subTitleFadein {
 	to {
-		transform: translate(0px, 0px);
+		transform: translate(0px, -5px);
 	}
 	from {
-		transform: translate(0px, 135px);
+		transform: translate(0px, 185px);
 	}
 }
 @keyframes contactFadein {
