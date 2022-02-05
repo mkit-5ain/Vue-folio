@@ -147,13 +147,13 @@
                 bottom: -4px;
                 left: 0px;
                 width: 100%;
-                border-bottom: 4px solid #fbc6c2;
+                border-bottom: 4px solid #fff;
                 transform: scaleX(0);
                 transform-origin: right;
                 transition: transform 0.6s ease-out;
             }
             > p { margin-right: 50px; overflow: hidden;
-                span { display: block; height: 100%; transform: translate(0px, 135px); }
+                span { display: block; height: 100%; transform: translate(0px, 185px); }
             }
         }
         .item {
@@ -167,7 +167,7 @@
                 bottom: -1px;
                 left: 0px;
                 width: 100%;
-                border-bottom: 1px solid #fbc6c2;
+                border-bottom: 1px solid #fff;
                 will-change: transform;
                 transform: scaleX(0);
                 transform-origin: right;
@@ -190,5 +190,6 @@
                 &:after { transform: rotate(-90deg); }
             }
         }
+        .btn-more { font-size: 1vw; color: #f00; text-align: right; }
     }
 }
