@@ -4,7 +4,7 @@
             <div class="object">
                 <div class="object__image"><img src="@/assets/image/common/cup.png" alt=""></div>
                 <div class="object__text--rotate">
-                    <div>GOSPHERES</div>
+                    <div>010.5558.0087</div>
                 </div>
             </div>
         </section>
@@ -52,7 +52,13 @@
                 font-size: 30px;
                 font-weight: bold;
                 overflow: hidden;
-                div { animation: 4s linear cupTextMarquee infinite; font-size: 50px; color: #ffcdde; text-shadow: 1px 1px 2px #ce1b33; }
+                div {
+                    width: 110%;
+                    font-size: 50px;
+                    color: #ffcdde;
+                    text-shadow: 1px 1px 2px #ce1b33;
+                    animation: 4s linear cupTextMarquee infinite;
+                }
             }
         }
     }

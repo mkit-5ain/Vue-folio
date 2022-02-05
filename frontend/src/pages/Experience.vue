@@ -1,25 +1,17 @@
 <template>
-    <section id="exp">
+    <section id="experience">
         <ui-prologue/>
-        <section class="work__list component__style">
-            <ul class="list__wrap">
-                <li class="item">1</li>
-                <li class="item">2</li>
-                <li class="item">3</li>
-                <li class="item">4</li>
-            </ul>
-            <ul class="list__wrap">
-                <li class="item">5</li>
-                <li class="item">6</li>
-                <li class="item">7</li>
-            </ul>
-            <ul class="list__wrap">
-                <li class="item">8</li>
-                <li class="item">9</li>
-                <li class="item">10</li>
-                <li class="item">9</li>
-                <li class="item">10</li>
-            </ul>
+        <section class="exp__list component__style">
+            <a class="exp__list--link link" href="">PICKDATA</a>
+            <img class="exp__list--img" src="" />
+            <div class="exp__list--marquee">
+                <div class="marquee--text">
+                    <div class="text">PICKDATA</div>
+                    <div class="text">PICKDATA</div>
+                    <div class="text">PICKDATA</div>
+                    <div class="text">PICKDATA</div>
+                </div>
+            </div>
         </section>
     </section>
 </template>
@@ -35,10 +27,100 @@
     }
 </script>
 <style lang="scss" scoped>
-    .work__list {
-        .list__wrap { display: flex;
-            .item { border-bottom: 1px solid #111; border-right: 1px solid #111; }
+$marquee-width: 100vw;
+$offset: 20vw;
+$move-initial: calc(-25% + $offset);
+$move-final: calc(-50% + $offset);
+$item-font-size: 10vw;
+@keyframes text-marquee {
+    0% {
+		transform: translate3d($move-initial, 0, 0);
+	}
+
+	100% {
+		transform: translate3d($move-final, 0, 0);
+	}
+}
+#experience { counter-reset: section;
+    .exp__list { position: relative; margin: 15vw 0; padding: 0 6vw;
+        .exp__list--link {
+            display: inline-block;
+            position: relative;
+            width: 100%;
+            line-height: 1.15;
+            border-bottom: 1px solid #111;
+            font-family: 'logo';
+            font-size: $item-font-size;
+            font-weight: 900;
+            color: transparent;
+            -webkit-text-stroke: 1.5px #000;
+            text-stroke: 1.5px #000;
+            -webkit-text-fill-color: transparent;
+            text-fill-color: transparent;
+            transition: opacity 0.4s;
+            white-space: nowrap;
+            cursor: pointer;
+            &::before {
+                all: initial;
+                counter-increment: section;
+                content:  counter(section);
+                position: absolute;
+                bottom: 0px;
+                right: 0px;
+                color: transparent;
+                font-size: 30px;
+                font-family: 'logo';
+                pointer-events: none;
+                -webkit-text-stroke: 1.5px #111;
+                text-stroke: 1px #000;
+                -webkit-text-fill-color: transparent;
+                text-fill-color: transparent;
+            }
+            &:hover { transition-duration: 0.1s; opacity: 0; }
+        }
+        .exp__list--img {
+            pointer-events: none;
+            position: absolute;
+            height: 50vh;
+            max-height: 400px;
+            opacity: 0;
+            left: 100%;
+            top: 50%;
+            z-index: 10;
+            transform: translate3d(calc(-100% - 6vw),-30%,0) translate3d(0,20px,0);
+        }
+        .exp__list--marquee {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: $marquee-width;
+            overflow: hidden;
+            pointer-events: none;
+            mix-blend-mode: color-burn;
+            .marquee--text {
+                width: fit-content;
+                display: flex;
+                position: relative;
+                border-bottom: 1px solid #111;
+                transform: translate3d($move-initial, 0, 0);
+                animation: text-marquee 5s linear infinite;
+                animation-play-state: paused;
+                opacity: 0;
+                transition: opacity 0.1s;
+                .text {
+                    line-height: 1.15;
+                    padding: 0 3vw;
+                    font-family: 'logo';
+                    font-size: $item-font-size;
+                    font-weight: 900;
+                    font-style: italic;
+                    text-align: center;
+                    white-space: nowrap;
+                }
+            }
         }
     }
-
+    .exp__list--link:hover + .exp__list--img { opacity: 1; transform: translate3d(calc(-100% - 6vw),-30%,0) rotate3d(0,0,1,4deg); transition: all 0.4s; }
+    .exp__list--link:hover ~ .exp__list--marquee .marquee--text { animation-play-state: running; opacity: 1; transition-duration: 0.4s; }
+}
 </style>

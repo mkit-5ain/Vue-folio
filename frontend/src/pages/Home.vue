@@ -144,18 +144,20 @@
         <section class="contact component__style scroll-handler">
             <Title titleText="project list"></Title>
             <div class="inner">
-                <div class="sub-title">
-                    <p><span>Get</span></p>
-                    <p><span>In</span></p>
-                    <p><span>Touch</span></p>
-                </div>
-                <p class="item scale"><span>Welcome To This Place</span></p>
-                <p class="item scale"><span>Trap House</span></p>
-                <p class="item scale"><span>ManoverBoard</span></p>
-                <p class="item scale"><span>Outhere Music</span></p>
-                <p class="item scale"><span>Paris In the Rain</span></p>
-                <p class="item scale"><span>My Universe</span></p>
-                <p class="item scale"><span>Creative Practices</span></p>
+                <router-link to="/Experience">
+                    <div class="sub-title">
+                        <p><span>+</span></p>
+                        <p><span>View</span></p>
+                        <p><span>More</span></p>
+                    </div>
+                </router-link>
+                <p class="item scale"><span>SLOW GLOW</span></p>
+                <p class="item scale"><span>NOICE</span></p>
+                <p class="item scale"><span>A-SOF</span></p>
+                <p class="item scale"><span>PICKDATA</span></p>
+                <p class="item scale"><span>BIGCIAL</span></p>
+                <p class="item scale"><span>GREEN CAR</span></p>
+                <p class="item scale"><span>MULA WEAR</span></p>
             </div>
         </section>
     </section>
@@ -176,8 +178,8 @@
         },
         mounted:function () {
             window.addEventListener("scroll", this.sectionHandle); // 스크롤 섹션 접근시 scroll-handler에 클래스추가
-            window.addEventListener("scroll", this.bgHandle); // 스크롤 섹션 접근시 body에 클래스 추가
-            this.horizontalScroll(); // 가로 스크롤
+            // window.addEventListener("scroll", this.bgHandle); // 스크롤 섹션 접근시 body에 클래스 추가
+            // this.horizontalScroll(); // 가로 스크롤
             //this.timeAnimation(); // 텍스트 교차 애니메이션
         },
         methods: {
