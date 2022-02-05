@@ -1,7 +1,7 @@
 <template>
     <header id="header" class="header">
         <div class="email">
-            <span>Lorem@gmail.com</span>
+            <span>mkit5ain@gmail.com</span>
         </div>
         <div class="production next__line">
             <span class="text"><span>Directors</span></span>
@@ -9,10 +9,10 @@
             <span class="text"><span>2022</span></span>
         </div>
         <div class="name">
-            <span>Lorem</span>
+            <span>lim june su</span>
         </div>
         <div class="point">
-            <span>*(Living)</span>
+            <span>*1991.11.04</span>
         </div>
         <div class="discription next__line">
             <span class="text"><span>Mkit5ain is a Webpage Director</span></span>
