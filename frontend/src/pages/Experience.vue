@@ -1,18 +1,176 @@
 <template>
     <section id="experience">
         <ui-prologue/>
-        <section class="exp__list component__style">
-            <a class="exp__list--link link" href="">PICKDATA</a>
-            <img class="exp__list--img" src="" />
-            <div class="exp__list--marquee">
-                <div class="marquee--text">
-                    <div class="text">PICKDATA</div>
-                    <div class="text">PICKDATA</div>
-                    <div class="text">PICKDATA</div>
-                    <div class="text">PICKDATA</div>
+        <ul class="exp__list__wrap">
+            <li class="exp__list component__style">
+                <a class="exp__list--link link" href="">SLOWGLOW</a>
+                <img class="exp__list--img" src="" />
+                <div class="exp__list--marquee">
+                    <div class="marquee--text">
+                        <div class="text">SLOWGLOW</div>
+                        <div class="text">SLOWGLOW</div>
+                        <div class="text">SLOWGLOW</div>
+                        <div class="text">SLOWGLOW</div>
+                    </div>
                 </div>
-            </div>
-        </section>
+            </li>
+            <li class="exp__list component__style">
+                <a class="exp__list--link link" href="">NOICE</a>
+                <img class="exp__list--img" src="" />
+                <div class="exp__list--marquee">
+                    <div class="marquee--text">
+                        <div class="text">NOICE</div>
+                        <div class="text">NOICE</div>
+                        <div class="text">NOICE</div>
+                        <div class="text">NOICE</div>
+                    </div>
+                </div>
+            </li>
+            <li class="exp__list component__style">
+                <a class="exp__list--link link" href="">A-SOF</a>
+                <img class="exp__list--img" src="" />
+                <div class="exp__list--marquee">
+                    <div class="marquee--text">
+                        <div class="text">A-SOF</div>
+                        <div class="text">A-SOF</div>
+                        <div class="text">A-SOF</div>
+                        <div class="text">A-SOF</div>
+                    </div>
+                </div>
+            </li>
+            <li class="exp__list component__style">
+                <a class="exp__list--link link" href="">PICKDATA</a>
+                <img class="exp__list--img" src="" />
+                <div class="exp__list--marquee">
+                    <div class="marquee--text">
+                        <div class="text">PICKDATA</div>
+                        <div class="text">PICKDATA</div>
+                        <div class="text">PICKDATA</div>
+                        <div class="text">PICKDATA</div>
+                    </div>
+                </div>
+            </li>
+            <li class="exp__list component__style">
+                <a class="exp__list--link link" href="">BIGCIAL</a>
+                <img class="exp__list--img" src="" />
+                <div class="exp__list--marquee">
+                    <div class="marquee--text">
+                        <div class="text">BIGCIAL</div>
+                        <div class="text">BIGCIAL</div>
+                        <div class="text">BIGCIAL</div>
+                        <div class="text">BIGCIAL</div>
+                    </div>
+                </div>
+            </li>
+            <li class="exp__list component__style">
+                <a class="exp__list--link link" href="">PICKDATA</a>
+                <img class="exp__list--img" src="" />
+                <div class="exp__list--marquee">
+                    <div class="marquee--text">
+                        <div class="text">PICKDATA</div>
+                        <div class="text">PICKDATA</div>
+                        <div class="text">PICKDATA</div>
+                        <div class="text">PICKDATA</div>
+                    </div>
+                </div>
+            </li>
+            <li class="exp__list component__style">
+                <a class="exp__list--link link" href="">GREENCAR</a>
+                <img class="exp__list--img" src="" />
+                <div class="exp__list--marquee">
+                    <div class="marquee--text">
+                        <div class="text">GREENCAR</div>
+                        <div class="text">GREENCAR</div>
+                        <div class="text">GREENCAR</div>
+                        <div class="text">GREENCAR</div>
+                    </div>
+                </div>
+            </li>
+            <li class="exp__list component__style">
+                <a class="exp__list--link link" href="">MULAWEAR</a>
+                <img class="exp__list--img" src="" />
+                <div class="exp__list--marquee">
+                    <div class="marquee--text">
+                        <div class="text">MULAWEAR</div>
+                        <div class="text">MULAWEAR</div>
+                        <div class="text">MULAWEAR</div>
+                        <div class="text">MULAWEAR</div>
+                    </div>
+                </div>
+            </li>
+            <li class="exp__list component__style">
+                <a class="exp__list--link link" href="">CREATIVELIBRARY</a>
+                <img class="exp__list--img" src="" />
+                <div class="exp__list--marquee">
+                    <div class="marquee--text">
+                        <div class="text">CREATIVELIBRARY</div>
+                        <div class="text">CREATIVELIBRARY</div>
+                        <div class="text">CREATIVELIBRARY</div>
+                        <div class="text">CREATIVELIBRARY</div>
+                    </div>
+                </div>
+            </li>
+            <li class="exp__list component__style">
+                <a class="exp__list--link link" href="">LOTTOSPORTS</a>
+                <img class="exp__list--img" src="" />
+                <div class="exp__list--marquee">
+                    <div class="marquee--text">
+                        <div class="text">LOTTOSPORTS</div>
+                        <div class="text">LOTTOSPORTS</div>
+                        <div class="text">LOTTOSPORTS</div>
+                        <div class="text">LOTTOSPORTS</div>
+                    </div>
+                </div>
+            </li>
+            <li class="exp__list component__style">
+                <a class="exp__list--link link" href="">VERACITY</a>
+                <img class="exp__list--img" src="" />
+                <div class="exp__list--marquee">
+                    <div class="marquee--text">
+                        <div class="text">VERACITY</div>
+                        <div class="text">VERACITY</div>
+                        <div class="text">VERACITY</div>
+                        <div class="text">VERACITY</div>
+                    </div>
+                </div>
+            </li>
+            <li class="exp__list component__style">
+                <a class="exp__list--link link" href="">SWMP</a>
+                <img class="exp__list--img" src="" />
+                <div class="exp__list--marquee">
+                    <div class="marquee--text">
+                        <div class="text">SWMP</div>
+                        <div class="text">SWMP</div>
+                        <div class="text">SWMP</div>
+                        <div class="text">SWMP</div>
+                    </div>
+                </div>
+            </li>
+            <li class="exp__list component__style">
+                <a class="exp__list--link link" href="">WANDO</a>
+                <img class="exp__list--img" src="" />
+                <div class="exp__list--marquee">
+                    <div class="marquee--text">
+                        <div class="text">WANDO</div>
+                        <div class="text">WANDO</div>
+                        <div class="text">WANDO</div>
+                        <div class="text">WANDO</div>
+                    </div>
+                </div>
+            </li>
+            <li class="exp__list component__style">
+                <a class="exp__list--link link" href="">HJRETAIL</a>
+                <img class="exp__list--img" src="" />
+                <div class="exp__list--marquee">
+                    <div class="marquee--text">
+                        <div class="text">HJRETAIL</div>
+                        <div class="text">HJRETAIL</div>
+                        <div class="text">HJRETAIL</div>
+                        <div class="text">HJRETAIL</div>
+                    </div>
+                </div>
+            </li>
+        </ul>
     </section>
 </template>
 
@@ -42,85 +200,87 @@ $item-font-size: 10vw;
 	}
 }
 #experience { counter-reset: section;
-    .exp__list { position: relative; margin: 15vw 0; padding: 0 6vw;
-        .exp__list--link {
-            display: inline-block;
-            position: relative;
-            width: 100%;
-            line-height: 1.15;
-            border-bottom: 1px solid #111;
-            font-family: 'logo';
-            font-size: $item-font-size;
-            font-weight: 900;
-            color: transparent;
-            -webkit-text-stroke: 1.5px #000;
-            text-stroke: 1.5px #000;
-            -webkit-text-fill-color: transparent;
-            text-fill-color: transparent;
-            transition: opacity 0.4s;
-            white-space: nowrap;
-            cursor: pointer;
-            &::before {
-                all: initial;
-                counter-increment: section;
-                content:  counter(section);
-                position: absolute;
-                bottom: 0px;
-                right: 0px;
-                color: transparent;
-                font-size: 30px;
+    .exp__list__wrap { margin-top: 15vw;
+        .exp__list { position: relative; margin: 0; padding: 0 6vw;
+            .exp__list--link {
+                display: inline-block;
+                position: relative;
+                width: 100%;
+                line-height: 1.15;
+                border-bottom: 1px solid #111;
                 font-family: 'logo';
-                pointer-events: none;
-                -webkit-text-stroke: 1.5px #111;
-                text-stroke: 1px #000;
+                font-size: $item-font-size;
+                font-weight: 900;
+                color: transparent;
+                -webkit-text-stroke: 1.5px #000;
+                text-stroke: 1.5px #000;
                 -webkit-text-fill-color: transparent;
                 text-fill-color: transparent;
-            }
-            &:hover { transition-duration: 0.1s; opacity: 0; }
-        }
-        .exp__list--img {
-            pointer-events: none;
-            position: absolute;
-            height: 50vh;
-            max-height: 400px;
-            opacity: 0;
-            left: 100%;
-            top: 50%;
-            z-index: 10;
-            transform: translate3d(calc(-100% - 6vw),-30%,0) translate3d(0,20px,0);
-        }
-        .exp__list--marquee {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: $marquee-width;
-            overflow: hidden;
-            pointer-events: none;
-            mix-blend-mode: color-burn;
-            .marquee--text {
-                width: fit-content;
-                display: flex;
-                position: relative;
-                border-bottom: 1px solid #111;
-                transform: translate3d($move-initial, 0, 0);
-                animation: text-marquee 5s linear infinite;
-                animation-play-state: paused;
-                opacity: 0;
-                transition: opacity 0.1s;
-                .text {
-                    line-height: 1.15;
-                    padding: 0 3vw;
+                transition: opacity 0.4s;
+                white-space: nowrap;
+                cursor: pointer;
+                &::before {
+                    all: initial;
+                    counter-increment: section;
+                    content:  counter(section);
+                    position: absolute;
+                    bottom: 0px;
+                    right: 0px;
+                    color: transparent;
+                    font-size: 30px;
                     font-family: 'logo';
-                    font-size: $item-font-size;
-                    font-weight: 900;
-                    font-style: italic;
-                    text-align: center;
-                    white-space: nowrap;
+                    pointer-events: none;
+                    -webkit-text-stroke: 1.5px #111;
+                    text-stroke: 1px #000;
+                    -webkit-text-fill-color: transparent;
+                    text-fill-color: transparent;
+                }
+                &:hover { transition-duration: 0.1s; opacity: 0; }
+            }
+            .exp__list--img {
+                pointer-events: none;
+                position: absolute;
+                height: 50vh;
+                max-height: 400px;
+                opacity: 0;
+                left: 100%;
+                top: 50%;
+                z-index: 10;
+                transform: translate3d(calc(-100% - 6vw),-30%,0) translate3d(0,20px,0);
+            }
+            .exp__list--marquee {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: $marquee-width;
+                overflow: hidden;
+                pointer-events: none;
+                mix-blend-mode: color-burn;
+                .marquee--text {
+                    width: fit-content;
+                    display: flex;
+                    position: relative;
+                    border-bottom: 1px solid #111;
+                    transform: translate3d($move-initial, 0, 0);
+                    animation: text-marquee 5s linear infinite;
+                    animation-play-state: paused;
+                    opacity: 0;
+                    transition: opacity 0.1s;
+                    .text {
+                        line-height: 1.15;
+                        padding: 0 3vw;
+                        font-family: 'logo';
+                        font-size: $item-font-size;
+                        font-weight: 900;
+                        font-style: italic;
+                        text-align: center;
+                        white-space: nowrap;
+                    }
                 }
             }
         }
+        .exp__list--link:hover + .exp__list--img { opacity: 1; transform: translate3d(calc(-100% - 6vw),-30%,0) rotate3d(0,0,1,4deg); transition: all 0.4s; }
+        .exp__list--link:hover ~ .exp__list--marquee .marquee--text { animation-play-state: running; opacity: 1; transition-duration: 0.4s; }
     }
-    .exp__list--link:hover + .exp__list--img { opacity: 1; transform: translate3d(calc(-100% - 6vw),-30%,0) rotate3d(0,0,1,4deg); transition: all 0.4s; }
-    .exp__list--link:hover ~ .exp__list--marquee .marquee--text { animation-play-state: running; opacity: 1; transition-duration: 0.4s; }
 }
 </style>
