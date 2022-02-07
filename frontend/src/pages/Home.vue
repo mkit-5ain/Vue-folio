@@ -8,114 +8,89 @@
             <Title titleText="selected work"></Title>
             <div class="item t1 scroll-handler">
                 <div class="image">
-                    <div class="image__inner"><img src="@/assets/image/common/project/s_3.png" alt=""></div>
-                    <p class="image__name">Design - Skeuomorphism / World</p>
+                    <div class="image__inner"><img src="@/assets/image/common/project/slowglow/slowglow_thumb.png" alt=""></div>
+                    <p class="image__name">SlowGlow - Health functional food.</p>
                 </div>
                 <div class="discription">
-                    <p><span>From Romania Ali moved to</span></p>
-                    <p><span>Germany with Leagas</span></p>
-                    <p><span>Delaney, Hamburg. Where he</span></p>
-                    <p><span>worked under a great Art</span></p>
-                    <p><span>Director, Hermann</span></p>
-                    <p><span>Waterkamp. From there he</span></p>
-                    <p><span>went on to build a truly global</span></p>
-                    <p><span>career, first as Art Director</span></p>
-                    <p><span>then as Creative Director for</span></p>
-                    <p><span>the likes of Leo Burnett, JWT,</span></p>
-                    <p><span>McCann, before finally</span></p>
-                    <p><span>topping it off as ECD of</span></p>
-                    <p><span>DDB-Berlin in 2012.</span></p>
+                    <p><span>SlowGlow는 세가지 기능성을 하나에 담아</span></p>
+                    <p><span>자신의 외모와 신체에 대한 생각들을 점검하고</span></p>
+                    <p><span>남들과 같은 기준으로 아름다워지기보다</span></p>
+                    <p><span>진정한 나만의 아름다움을 찾기위해</span></p>
+                    <p><span>더 이상 자극적이거나 무리하지않고</span></p>
+                    <p><span>차근차근 처넌히 더 건강하고</span></p>
+                    <p><span>오랫동안 빛날수 있도록 나만의 속도대로</span></p>
+                    <p><span>나만의 아름다움을 맏들어갑니다.</span></p>
                 </div>
             </div>
             <div class="item t2 scroll-handler">
                 <div class="image">
-                    <div class="image__inner"><img src="@/assets/image/common/project/s_2.png" alt=""></div>
-                    <p class="image__name">Design - Newmorphism / World</p>
+                    <div class="image__inner"><img src="@/assets/image/common/project/noice/noice_thumb.png" alt=""></div>
+                    <p class="image__name">NOICE - Clothing</p>
                 </div>
                 <div class="discription">
-                    <p><span>It may not be obvious, but Ali</span></p>
-                    <p><span>studied computer</span></p>
-                    <p><span>engineering at the American</span></p>
-                    <p><span>University in Cairo, with a</span></p>
-                    <p><span>minor in painting. Preferring</span></p>
-                    <p><span>storyboards to motherboards,</span></p>
-                    <p><span>he quickly abandoned a</span></p>
-                    <p><span>mediocre programming</span></p>
-                    <p><span>career to study Design and</span></p>
-                    <p><span>Art Direction at the</span></p>
-                    <p><span>Miami Ad School.</span></p>
+                    <p><span>NOICE is a Seoul-based RTW fashion label,</span></p>
+                    <p><span>which is inspired by human senses e.g.: sounds.</span></p>
+                    <p><span>They have been merged comfort and</span></p>
+                    <p><span>functionality in their collections and</span></p>
+                    <p><span>redefine traditional workwear into versatile pieces.</span></p>
+                    <p><span>These contemporary utility aesthetics</span></p>
+                    <p><span>were added to your daily essentials and</span></p>
+                    <p><span>establish a subtle elegance to every styling.</span></p>
                 </div>
             </div>
             <div class="item t3 scroll-handler">
                 <div class="image">
-                    <div class="image__inner"><img src="@/assets/image/common/project/s_4.png" alt=""></div>
-                    <p class="image__name">Design - Hyundai / Korea</p>
+                    <div class="image__inner"><img src="@/assets/image/common/project/asof/asof_thumb.png" alt=""></div>
+                    <p class="image__name">A-SOF - Clothing</p>
                 </div>
                 <div class="discription">
-                    <p><span>Ali spent a little over a year in</span></p>
-                    <p><span>Miami before moving to</span></p>
-                    <p><span>Romania as a Junior Art</span></p>
-                    <p><span>Director for D'Arcy Bucharest.</span></p>
-                    <p><span>He met some incredible</span></p>
-                    <p><span>people at the now-closed</span></p>
-                    <p><span>Agency, and they’re still</span></p>
-                    <p><span>friends to this day.</span></p>
+                    <p><span>A·SOF™는 스트릿 디자인을 기반으로</span></p>
+                    <p><span>편안한 실루엣을 추구하는 캐주얼 웨어 브랜드 입니다.</span></p>
+                    <p><span>끊임 없는 변화속에서 기존의 관습을 거부하고</span></p>
+                    <p><span>새로운 도전을 하는 스트릿 문화의 영감을 받아</span></p>
+                    <p><span>래픽을 활용해 브랜드의 감성을 표현하고,</span></p>
+                    <p><span>기본이 되는 소재부터 디테일까지 직접 개발하여</span></p>
+                    <p><span>새로운 스타일을 제시합니다.</span></p>
                 </div>
             </div>
             <div class="item t1 scroll-handler">
                 <div class="image">
-                    <div class="image__inner"><img src="@/assets/image/common/project/s_3.png" alt=""></div>
-                    <p class="image__name">Design - Skeuomorphism / World</p>
+                    <div class="image__inner"><img src="@/assets/image/common/project/bigcial/bigcial_thumb.png" alt=""></div>
+                    <p class="image__name">BigCial - SNS Solution</p>
                 </div>
                 <div class="discription">
-                    <p><span>From Romania Ali moved to</span></p>
-                    <p><span>Germany with Leagas</span></p>
-                    <p><span>Delaney, Hamburg. Where he</span></p>
-                    <p><span>worked under a great Art</span></p>
-                    <p><span>Director, Hermann</span></p>
-                    <p><span>Waterkamp. From there he</span></p>
-                    <p><span>went on to build a truly global</span></p>
-                    <p><span>career, first as Art Director</span></p>
-                    <p><span>then as Creative Director for</span></p>
-                    <p><span>the likes of Leo Burnett, JWT,</span></p>
-                    <p><span>McCann, before finally</span></p>
-                    <p><span>topping it off as ECD of</span></p>
-                    <p><span>DDB-Berlin in 2012.</span></p>
+                    <p><span>인스타그램 운영의 첫 걸음, BigCial</span></p>
+                    <p><span>20년차 광고대행사 엠포스의 노하우가 담긴 분석 솔루션, 빅셜이 도와드릴게요.</span></p>
+                    <p><span>데이터 기반의 성과분석은 물론 예약업로드, 댓글추첨까지!</span></p>
+                    <p><span>SNS 마케터를 위한 다양한 기능을 제공합니다.</span></p>
                 </div>
             </div>
             <div class="item t2 scroll-handler">
                 <div class="image">
-                    <div class="image__inner"><img src="@/assets/image/common/project/s_2.png" alt=""></div>
-                    <p class="image__name">Design - Newmorphism / World</p>
+                    <div class="image__inner"><img src="@/assets/image/common/project/pickdata/pickdata_thumb.png" alt=""></div>
+                    <p class="image__name">PickData - SNS Solution</p>
                 </div>
                 <div class="discription">
-                    <p><span>It may not be obvious, but Ali</span></p>
-                    <p><span>studied computer</span></p>
-                    <p><span>engineering at the American</span></p>
-                    <p><span>University in Cairo, with a</span></p>
-                    <p><span>minor in painting. Preferring</span></p>
-                    <p><span>storyboards to motherboards,</span></p>
-                    <p><span>he quickly abandoned a</span></p>
-                    <p><span>mediocre programming</span></p>
-                    <p><span>career to study Design and</span></p>
-                    <p><span>Art Direction at the</span></p>
-                    <p><span>Miami Ad School.</span></p>
+                    <p><span>페이스북 광고 솔루션 PickData</span></p>
+                    <p><span>페이스북 광고의 최종 목적인</span></p>
+                    <p><span>맞춤타겟팅에 초첨을 맞춰 수익 극대화에 도움</span></p>
+                    <p><span>고효율의 LP 관심사 키워드 추천</span></p>
+                    <p><span>최적화 소재 구현</span></p>
+                    <p><span>관심사 적정도 검사의 3가지 주요 기능을 담고 있다.</span></p>
                 </div>
             </div>
             <div class="item t3 scroll-handler">
                 <div class="image">
-                    <div class="image__inner"><img src="@/assets/image/common/project/s_4.png" alt=""></div>
-                    <p class="image__name">Design - Hyundai / Korea</p>
+                    <div class="image__inner"><img src="@/assets/image/common/project/mula/mula_thumb.png" alt=""></div>
+                    <p class="image__name">MulaWear - SportsWear</p>
                 </div>
                 <div class="discription">
-                    <p><span>Ali spent a little over a year in</span></p>
-                    <p><span>Miami before moving to</span></p>
-                    <p><span>Romania as a Junior Art</span></p>
-                    <p><span>Director for D'Arcy Bucharest.</span></p>
-                    <p><span>He met some incredible</span></p>
-                    <p><span>people at the now-closed</span></p>
-                    <p><span>Agency, and they’re still</span></p>
-                    <p><span>friends to this day.</span></p>
+                    <p><span>MulaWear는 스타일리쉬한 명품 피트니스웨어를 생산</span></p>
+                    <p><span>판매하고 있는 스포츠 웨어 전문 브랜드입니다.</span></p>
+                    <p><span>스포츠를 통해 건강한 웰빙라이프를</span></p>
+                    <p><span>즐기는 고객님들의 니즈에 부응하고자 런칭한 뮬라웨어는</span></p>
+                    <p><span>트랜디한 디자인과 최고의 품질</span></p>
+                    <p><span>합리적인 가격으로 업계의 주목을 받고 있습니다.</span></p>
                 </div>
             </div>
         </section>

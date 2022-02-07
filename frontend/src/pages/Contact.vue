@@ -16,7 +16,7 @@
     }
 </script>
 <style lang="scss" scoped>
-    #contact { background: #f00;}
+    #contact { background: #e47881;}
     @keyframes cupMove {
         from {
             transform: rotateZ(25deg) translate(0px, 40px);

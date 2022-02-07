@@ -3,14 +3,14 @@
         <ui-prologue/>
         <ul class="exp__list__wrap">
             <li class="exp__list component__style">
-                <a class="exp__list--link link" href="">SLOWGLOW</a>
+                <a class="exp__list--link link" href="">SLOW-GLOW</a>
                 <img class="exp__list--img" src="" />
                 <div class="exp__list--marquee">
                     <div class="marquee--text">
-                        <div class="text">SLOWGLOW</div>
-                        <div class="text">SLOWGLOW</div>
-                        <div class="text">SLOWGLOW</div>
-                        <div class="text">SLOWGLOW</div>
+                        <div class="text">SLOW-GLOW</div>
+                        <div class="text">SLOW-GLOW</div>
+                        <div class="text">SLOW-GLOW</div>
+                        <div class="text">SLOW-GLOW</div>
                     </div>
                 </div>
             </li>
@@ -63,14 +63,14 @@
                 </div>
             </li>
             <li class="exp__list component__style">
-                <a class="exp__list--link link" href="">PICKDATA</a>
+                <a class="exp__list--link link" href="">GOOD-DIRECT</a>
                 <img class="exp__list--img" src="" />
                 <div class="exp__list--marquee">
                     <div class="marquee--text">
-                        <div class="text">PICKDATA</div>
-                        <div class="text">PICKDATA</div>
-                        <div class="text">PICKDATA</div>
-                        <div class="text">PICKDATA</div>
+                        <div class="text">GOOD-DIRECT</div>
+                        <div class="text">GOOD-DIRECT</div>
+                        <div class="text">GOOD-DIRECT</div>
+                        <div class="text">GOOD-DIRECT</div>
                     </div>
                 </div>
             </li>
@@ -99,26 +99,26 @@
                 </div>
             </li>
             <li class="exp__list component__style">
-                <a class="exp__list--link link" href="">CREATIVELIBRARY</a>
+                <a class="exp__list--link link" href="">CREATIVE-LIB</a>
                 <img class="exp__list--img" src="" />
                 <div class="exp__list--marquee">
                     <div class="marquee--text">
-                        <div class="text">CREATIVELIBRARY</div>
-                        <div class="text">CREATIVELIBRARY</div>
-                        <div class="text">CREATIVELIBRARY</div>
-                        <div class="text">CREATIVELIBRARY</div>
+                        <div class="text">CREATIVE-LIB</div>
+                        <div class="text">CREATIVE-LIB</div>
+                        <div class="text">CREATIVE-LIB</div>
+                        <div class="text">CREATIVE-LIB</div>
                     </div>
                 </div>
             </li>
             <li class="exp__list component__style">
-                <a class="exp__list--link link" href="">LOTTOSPORTS</a>
+                <a class="exp__list--link link" href="">LOTTO-SPORTS</a>
                 <img class="exp__list--img" src="" />
                 <div class="exp__list--marquee">
                     <div class="marquee--text">
-                        <div class="text">LOTTOSPORTS</div>
-                        <div class="text">LOTTOSPORTS</div>
-                        <div class="text">LOTTOSPORTS</div>
-                        <div class="text">LOTTOSPORTS</div>
+                        <div class="text">LOTTO-SPORTS</div>
+                        <div class="text">LOTTO-SPORTS</div>
+                        <div class="text">LOTTO-SPORTS</div>
+                        <div class="text">LOTTO-SPORTS</div>
                     </div>
                 </div>
             </li>
@@ -159,14 +159,14 @@
                 </div>
             </li>
             <li class="exp__list component__style">
-                <a class="exp__list--link link" href="">HJRETAIL</a>
+                <a class="exp__list--link link" href="">HJ-RETAIL</a>
                 <img class="exp__list--img" src="" />
                 <div class="exp__list--marquee">
                     <div class="marquee--text">
-                        <div class="text">HJRETAIL</div>
-                        <div class="text">HJRETAIL</div>
-                        <div class="text">HJRETAIL</div>
-                        <div class="text">HJRETAIL</div>
+                        <div class="text">HJ-RETAIL</div>
+                        <div class="text">HJ-RETAIL</div>
+                        <div class="text">HJ-RETAIL</div>
+                        <div class="text">HJ-RETAIL</div>
                     </div>
                 </div>
             </li>
@@ -189,7 +189,7 @@ $marquee-width: 100vw;
 $offset: 20vw;
 $move-initial: calc(-25% + $offset);
 $move-final: calc(-50% + $offset);
-$item-font-size: 10vw;
+$item-font-size: 8vw;
 @keyframes text-marquee {
     0% {
 		transform: translate3d($move-initial, 0, 0);
@@ -200,7 +200,7 @@ $item-font-size: 10vw;
 	}
 }
 #experience { counter-reset: section;
-    .exp__list__wrap { margin-top: 15vw;
+    .exp__list__wrap { margin: 15vw 0;
         .exp__list { position: relative; margin: 0; padding: 0 6vw;
             .exp__list--link {
                 display: inline-block;
