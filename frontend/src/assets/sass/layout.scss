@@ -22,7 +22,7 @@
         &.t1 { justify-content: center; }
         &.t2 { justify-content: center; }
         &.t3 { justify-content: center; flex-direction: row-reverse;
-            .discription { padding-left: 0px; padding-right: 15px; }
+            .discription { padding-left: 0px; padding-right: 30px; }
         }
         &.active {
             .discription {
@@ -39,13 +39,14 @@
             }
         }
         .image {
+            .image__inner { background: rgba(255,255,255,0.25); box-shadow: 0 8px 32px 0 rgb(31 38 135 / 37%); }
             .image__name {
                 line-height: 18px;
-                padding-top: 10px;
+                padding-top: 30px;
                 font-weight: bold;
             }
         }
-        .discription { padding-left: 15px; font-weight: bold;
+        .discription { padding-left: 30px; font-weight: bold;
             p { line-height: 25px; overflow: hidden;
                 span {
                     display: block;
@@ -131,8 +132,6 @@
         .sub-title {
             display: flex;
             position: relative;
-            height: 7vw;
-            line-height: 6.1vw;
             padding-bottom: 2vw;
             margin-bottom: 10vw;
             border-bottom: 4px solid $black-color;
@@ -152,8 +151,8 @@
                 transform-origin: right;
                 transition: transform 0.6s ease-out;
             }
-            > p { margin-right: 50px; overflow: hidden;
-                span { display: block; height: 100%; transform: translate(0px, 185px); }
+            > p { padding-left: 50px; overflow: hidden;
+                span { display: block; height: 100%; transform: translate(0px, 100%); }
             }
         }
         .item {
