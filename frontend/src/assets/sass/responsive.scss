@@ -1,0 +1,41 @@
+@media screen and ( max-width: 750px ) {
+    #app {
+        #nav { padding-top: 20px;
+            ul {
+                li { transform: translate(0px, 8vw); }
+            }
+        }
+        #header {
+            .email { bottom: 33vw; font-size: 20px; }
+            .production { bottom: 14vw; line-height: normal; font-size: 14px;
+                .text {
+                    span { transform: translate(0px, 15px); }
+                }
+            }
+            .name { top: auto; bottom: 50%;
+                span { line-height: 11vw; font-size: 13.5vw; }
+            }
+            .point { top: auto; bottom: 45%; }
+            .discription { bottom: 14vw;
+                .text { font-size: 14px; }
+            }
+        }
+        .footer--sticky {
+            .inner {
+                p { font-size: 12px; }
+            }
+        }
+        .title { position: static; margin-bottom: 50px; }
+        .work {
+            .item { flex-direction: column;
+                .image {
+                    .image__inner { width: 100%;
+                        img { width: 100%; }
+                    }
+                    .image__name { padding-top: 10px; font-size: 12px; }
+                }
+                .discription { padding-left: 0px; padding-top: 30px; }
+            }
+        }
+    }
+}
