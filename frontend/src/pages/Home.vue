@@ -11,7 +11,7 @@
                     <div class="image__inner"><img src="@/assets/image/common/project/slowglow/slowglow_thumb.png" alt=""></div>
                     <p class="image__name">SlowGlow - Health functional food.</p>
                 </div>
-                <div class="discription">
+                <div class="introduction">
                     <p><span>SlowGlow는 세가지 기능성을 하나에 담아</span></p>
                     <p><span>자신의 외모와 신체에 대한 생각들을 점검하고</span></p>
                     <p><span>남들과 같은 기준으로 아름다워지기보다</span></p>
@@ -27,15 +27,13 @@
                     <div class="image__inner"><img src="@/assets/image/common/project/noice/noice_thumb.png" alt=""></div>
                     <p class="image__name">NOICE - Clothing</p>
                 </div>
-                <div class="discription">
-                    <p><span>NOICE is a Seoul-based RTW fashion label,</span></p>
-                    <p><span>which is inspired by human senses e.g.: sounds.</span></p>
-                    <p><span>They have been merged comfort and</span></p>
-                    <p><span>functionality in their collections and</span></p>
-                    <p><span>redefine traditional workwear into versatile pieces.</span></p>
-                    <p><span>These contemporary utility aesthetics</span></p>
-                    <p><span>were added to your daily essentials and</span></p>
-                    <p><span>establish a subtle elegance to every styling.</span></p>
+                <div class="introduction">
+                    <p><span>Noice는 사운드와 같은 인간의 감각에서</span></p>
+                    <p><span>영감을 받아 그들은 컬렉션에 편안함과 기능을</span></p>
+                    <p><span>통합하고 전통적인 작업복을 다용도로 재정의했다.</span></p>
+                    <p><span>이러한 현대적인 유틸리티 미학이</span></p>
+                    <p><span>일상 생활 필수품에 더해져 모든 스타일링에</span></p>
+                    <p><span>미묘한 우아함을 구축합니다.</span></p>
                 </div>
             </div>
             <div class="item t3 scroll-handler">
@@ -43,7 +41,7 @@
                     <div class="image__inner"><img src="@/assets/image/common/project/asof/asof_thumb.png" alt=""></div>
                     <p class="image__name">A-SOF - Clothing</p>
                 </div>
-                <div class="discription">
+                <div class="introduction">
                     <p><span>A·SOF™는 스트릿 디자인을 기반으로</span></p>
                     <p><span>편안한 실루엣을 추구하는 캐주얼 웨어 브랜드 입니다.</span></p>
                     <p><span>끊임 없는 변화속에서 기존의 관습을 거부하고</span></p>
@@ -58,7 +56,7 @@
                     <div class="image__inner"><img src="@/assets/image/common/project/bigcial/bigcial_thumb.png" alt=""></div>
                     <p class="image__name">BigCial - SNS Solution</p>
                 </div>
-                <div class="discription">
+                <div class="introduction">
                     <p><span>인스타그램 운영의 첫 걸음, BigCial</span></p>
                     <p><span>20년차 광고대행사 엠포스의 노하우가 담긴 분석 솔루션, 빅셜이 도와드릴게요.</span></p>
                     <p><span>데이터 기반의 성과분석은 물론 예약업로드, 댓글추첨까지!</span></p>
@@ -70,7 +68,7 @@
                     <div class="image__inner"><img src="@/assets/image/common/project/pickdata/pickdata_thumb.png" alt=""></div>
                     <p class="image__name">PickData - SNS Solution</p>
                 </div>
-                <div class="discription">
+                <div class="introduction">
                     <p><span>페이스북 광고 솔루션 PickData</span></p>
                     <p><span>페이스북 광고의 최종 목적인</span></p>
                     <p><span>맞춤타겟팅에 초첨을 맞춰 수익 극대화에 도움</span></p>
@@ -84,7 +82,7 @@
                     <div class="image__inner"><img src="@/assets/image/common/project/mula/mula_thumb.png" alt=""></div>
                     <p class="image__name">MulaWear - SportsWear</p>
                 </div>
-                <div class="discription">
+                <div class="introduction">
                     <p><span>MulaWear는 스타일리쉬한 명품 피트니스웨어를 생산</span></p>
                     <p><span>판매하고 있는 스포츠 웨어 전문 브랜드입니다.</span></p>
                     <p><span>스포츠를 통해 건강한 웰빙라이프를</span></p>
@@ -95,25 +93,30 @@
             </div>
         </section>
         <section class="story scroll-handler">
-            <p><span>NAMED BY THE</span></p>
-            <p><span>2014 GUNN REPORT®</span></p>
-            <p><span>AS ONE OF THE TOP TEN</span></p>
-            <p><span>DIRECTORS IN THE WORLD.</span></p>
+            <p><span>The fact that time went by so fast...</span></p>
+            <p><span>Why does it only hit me at the end of the calendar?</span></p>
+            <p><span>I wanted to be a different person from last year.</span></p>
+            <p><span>So many resolutions that I've made up my mind</span></p>
+            <p><span>It was a promise that I couldn't keep.</span></p>
         </section>
-        <section class="age component__style scroll-handler">
+        <section class="about component__style scroll-handler">
             <Title titleText="about me"></Title>
             <div class="inner">
-                <div class="front">
-                    <span>2</span>
-                    <span>3</span>
+                <div class="age">
+                    <div class="front">
+                        <span>2</span>
+                        <span>3</span>
+                    </div>
+                    <div class="back">
+                        <span>5</span>
+                        <span>4</span>
+                        <span>3</span>
+                        <span>2</span>
+                    </div>
+                    <div class="text">AGE</div>
                 </div>
-                <div class="back">
-                    <span>5</span>
-                    <span>4</span>
-                    <span>3</span>
-                    <span>2</span>
-                </div>
-                <div class="text">AGE</div>
+                <div class="name"><span>LIM.JUNE.SU</span></div>
+                <div class="phone"><span>010.5558.0087</span></div>
             </div>
         </section>
         <section class="contact component__style scroll-handler">
@@ -126,13 +129,13 @@
                         <p><span>More</span></p>
                     </div>
                 </router-link>
-                <p class="item scale"><span>SLOW GLOW</span></p>
-                <p class="item scale"><span>NOICE</span></p>
-                <p class="item scale"><span>A-SOF</span></p>
-                <p class="item scale"><span>PICKDATA</span></p>
-                <p class="item scale"><span>BIGCIAL</span></p>
-                <p class="item scale"><span>GREEN CAR</span></p>
-                <p class="item scale"><span>MULA WEAR</span></p>
+                <p class="item scale"><span>Goodirect</span></p>
+                <p class="item scale"><span>SWMP</span></p>
+                <p class="item scale"><span>GreenCar</span></p>
+                <p class="item scale"><span>Creative lib</span></p>
+                <p class="item scale"><span>Veracity</span></p>
+                <p class="item scale"><span>Wando</span></p>
+                <p class="item scale"><span>Hj-Retail</span></p>
             </div>
         </section>
     </section>
