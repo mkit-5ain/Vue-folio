@@ -21,7 +21,7 @@
         &:last-child { margin-bottom: 0px; }
         &.t1 { justify-content: center; }
         &.t2 { justify-content: center; }
-        &.t3 { justify-content: center; flex-direction: row-reverse;
+        &.t3 { text-align: right; justify-content: center; flex-direction: row-reverse;
             .introduction { padding-left: 0px; padding-right: 30px; }
         }
         &.active {
@@ -48,10 +48,16 @@
         }
         .introduction { padding-left: 30px; font-weight: bold;
             p { line-height: 25px; overflow: hidden;
+                &.spec {
+                    span { color: #bd1414; }
+                }
+                &.people {
+                    span { color: #0b1da5; }
+                }
                 span {
                     display: block;
                     transition: .5s ease;
-                    transform: translate(0px, 21px);
+                    transform: translate(0px, 100%);
                 }
             }
         }
