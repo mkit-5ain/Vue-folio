@@ -8,18 +8,18 @@
             <Title titleText="selected work"></Title>
             <div class="item t1 scroll-handler">
                 <div class="image">
-                    <div class="image__inner"><img src="@/assets/image/common/project/slowglow/slowglow_thumb.png" alt=""></div>
-                    <p class="image__name">SlowGlow - Health functional food.</p>
+                    <div class="image__inner"><img src="@/assets/image/common/project/pickdata/pickdata_thumb.png" alt=""></div>
+                    <p class="image__name">PickData - SNS Solution</p>
                 </div>
                 <div class="introduction">
-                    <p><span>SlowGlow는 세가지 기능성을 하나에 담아</span></p>
-                    <p><span>자신의 외모와 신체에 대한 생각들을 점검하고</span></p>
-                    <p><span>남들과 같은 기준으로 아름다워지기보다</span></p>
-                    <p><span>진정한 나만의 아름다움을 찾기위해</span></p>
-                    <p><span>더 이상 자극적이거나 무리하지않고</span></p>
-                    <p><span>차근차근 처넌히 더 건강하고</span></p>
-                    <p><span>오랫동안 빛날수 있도록 나만의 속도대로</span></p>
-                    <p><span>나만의 아름다움을 맏들어갑니다.</span></p>
+                    <p><span>페이스북 광고 솔루션으로</span></p>
+                    <p><span>고효율의 LP&관심사 키워드 추천</span></p>
+                    <p><span>최적화 소재구현, 관심사 적정도 검사</span></p>
+                    <p><span>3가지 주요기능을 담고있습니다.</span></p>
+                    <p class="people"><span>기획자 2, 디자이너 1</span></p>
+                    <p class="people"><span>퍼블리셔(본인) 1, 프론트엔드개발자 1, 백엔드개발자 3</span></p>
+                    <p class="spec"><span>#vue.js, #javascript #html5</span></p>
+                    <p class="spec"><span>#css3, #oocss, #splite</span></p>
                 </div>
             </div>
             <div class="item t2 scroll-handler">
@@ -28,53 +28,62 @@
                     <p class="image__name">NOICE - Clothing</p>
                 </div>
                 <div class="introduction">
-                    <p><span>Noice는 사운드와 같은 인간의 감각에서</span></p>
-                    <p><span>영감을 받아 그들은 컬렉션에 편안함과 기능을</span></p>
-                    <p><span>통합하고 전통적인 작업복을 다용도로 재정의했다.</span></p>
-                    <p><span>이러한 현대적인 유틸리티 미학이</span></p>
-                    <p><span>일상 생활 필수품에 더해져 모든 스타일링에</span></p>
-                    <p><span>미묘한 우아함을 구축합니다.</span></p>
+                    <p><span>워크웨어 패션의류 쇼핑몰</span></p>
+                    <p><span>PC,MOBILE 모든페이지 퍼블리싱하였으며</span></p>
+                    <p><span>카페24 솔루션을 기반으로 작업하였습니다.</span></p>
+                    <p><span>불필요한 요소를 최소화 하고</span></p>
+                    <p><span>sticky를 사용하여 부드러운 고정 레이아웃을 연출</span></p>
+                    <p class="people"><span>기획자 1, 디자이너 1, 퍼블리셔(본인) 1</span></p>
+                    <p class="spec"><span>#jquery, #html5, #css3</span></p>
+                    <p class="spec"><span>#splite, #lazyloading</span></p>
                 </div>
             </div>
             <div class="item t3 scroll-handler">
-                <div class="image">
-                    <div class="image__inner"><img src="@/assets/image/common/project/asof/asof_thumb.png" alt=""></div>
-                    <p class="image__name">A-SOF - Clothing</p>
-                </div>
-                <div class="introduction">
-                    <p><span>A·SOF™는 스트릿 디자인을 기반으로</span></p>
-                    <p><span>편안한 실루엣을 추구하는 캐주얼 웨어 브랜드 입니다.</span></p>
-                    <p><span>끊임 없는 변화속에서 기존의 관습을 거부하고</span></p>
-                    <p><span>새로운 도전을 하는 스트릿 문화의 영감을 받아</span></p>
-                    <p><span>래픽을 활용해 브랜드의 감성을 표현하고,</span></p>
-                    <p><span>기본이 되는 소재부터 디테일까지 직접 개발하여</span></p>
-                    <p><span>새로운 스타일을 제시합니다.</span></p>
-                </div>
-            </div>
-            <div class="item t1 scroll-handler">
                 <div class="image">
                     <div class="image__inner"><img src="@/assets/image/common/project/bigcial/bigcial_thumb.png" alt=""></div>
                     <p class="image__name">BigCial - SNS Solution</p>
                 </div>
                 <div class="introduction">
-                    <p><span>인스타그램 운영의 첫 걸음, BigCial</span></p>
-                    <p><span>20년차 광고대행사 엠포스의 노하우가 담긴 분석 솔루션, 빅셜이 도와드릴게요.</span></p>
-                    <p><span>데이터 기반의 성과분석은 물론 예약업로드, 댓글추첨까지!</span></p>
-                    <p><span>SNS 마케터를 위한 다양한 기능을 제공합니다.</span></p>
+                    <p><span>인스타그램 운영의 첫 걸음, bigcial</span></p>
+                    <p><span>계정,팔로워,게시물,경쟁사,해시태그 데이터 제공</span></p>
+                    <p><span>게시물 예약 업로드 제공, 이벤트 댓글 추첨, 유저관리 해시태그관리</span></p>
+                    <p><span>3가지 주요기능을 담고있습니다.</span></p>
+                    <p class="people"><span>기획자 3, 디자이너 2</span></p>
+                    <p class="people"><span>퍼블리셔(본인) 1, 프론트엔드개발자 2, 백엔드개발자 3</span></p>
+                    <p class="spec"><span>#vue.js, #javascript, #html5</span></p>
+                    <p class="spec"><span>#css3, #bem, #splite</span></p>
+                </div>
+            </div>
+            <div class="item t1 scroll-handler">
+                <div class="image">
+                    <div class="image__inner"><img src="@/assets/image/common/project/asof/asof_thumb.png" alt=""></div>
+                    <p class="image__name">A-SOF - Clothing</p>
+                </div>
+                <div class="introduction">
+                    <p><span>스트릿 기반 패션의류 쇼핑몰</span></p>
+                    <p><span>PC,MOBILE 모든페이지 퍼블리싱하였으며</span></p>
+                    <p><span>카페24 솔루션을 기반으로 작업하였습니다.</span></p>
+                    <p><span>grid레이아웃을 사용하여 좀 더 크리에이티브하고</span></p>
+                    <p><span>ux에 중점을 두고 작업을 진행하였습니다.</span></p>
+                    <p class="people"><span>기획자 1, 디자이너 1, 퍼블리셔(본인) 1</span></p>
+                    <p class="spec"><span>#jquery, #html5, #css3</span></p>
+                    <p class="spec"><span>#splite, #lazyloading</span></p>
                 </div>
             </div>
             <div class="item t2 scroll-handler">
                 <div class="image">
-                    <div class="image__inner"><img src="@/assets/image/common/project/pickdata/pickdata_thumb.png" alt=""></div>
-                    <p class="image__name">PickData - SNS Solution</p>
+                    <div class="image__inner"><img src="@/assets/image/common/project/slowglow/slowglow_thumb.png" alt=""></div>
+                    <p class="image__name">SlowGlow - Health functional food.</p>
                 </div>
                 <div class="introduction">
-                    <p><span>페이스북 광고 솔루션 PickData</span></p>
-                    <p><span>페이스북 광고의 최종 목적인</span></p>
-                    <p><span>맞춤타겟팅에 초첨을 맞춰 수익 극대화에 도움</span></p>
-                    <p><span>고효율의 LP 관심사 키워드 추천</span></p>
-                    <p><span>최적화 소재 구현</span></p>
-                    <p><span>관심사 적정도 검사의 3가지 주요 기능을 담고 있다.</span></p>
+                    <p><span>건강기능식품 쇼핑몰</span></p>
+                    <p><span>PC,MOBILE 모든페이지 퍼블리싱하였으며</span></p>
+                    <p><span>위사 솔루션을 기반으로 작업하였습니다.</span></p>
+                    <p><span>불필요한 요소를 최소화 하고 최적화 작업진행</span></p>
+                    <p class="people"><span>기획자 1, 디자이너 3</span></p>
+                    <p class="people"><span>퍼블리셔(본인) 1, 백엔드개발자 1</span></p>
+                    <p class="spec"><span>#jquery, #html5, #css3</span></p>
+                    <p class="spec"><span>#splite, #lazyloading</span></p>
                 </div>
             </div>
             <div class="item t3 scroll-handler">
@@ -83,12 +92,15 @@
                     <p class="image__name">MulaWear - SportsWear</p>
                 </div>
                 <div class="introduction">
-                    <p><span>MulaWear는 스타일리쉬한 명품 피트니스웨어를 생산</span></p>
-                    <p><span>판매하고 있는 스포츠 웨어 전문 브랜드입니다.</span></p>
-                    <p><span>스포츠를 통해 건강한 웰빙라이프를</span></p>
-                    <p><span>즐기는 고객님들의 니즈에 부응하고자 런칭한 뮬라웨어는</span></p>
-                    <p><span>트랜디한 디자인과 최고의 품질</span></p>
-                    <p><span>합리적인 가격으로 업계의 주목을 받고 있습니다.</span></p>
+                    <p><span>스포츠의류 쇼핑몰</span></p>
+                    <p><span>PC,MOBILE 모든페이지 퍼블리싱하였으며</span></p>
+                    <p><span>4개국어(한국,중국.일본,미국) 홈페이지를</span></p>
+                    <p><span>메이크샵 솔루션을 기반으로 작업하였습니다.</span></p>
+                    <p><span>불필요한 요소를 최소화 하고</span></p>
+                    <p class="people"><span>기획자 1, 디자이너 2</span></p>
+                    <p class="people"><span>퍼블리셔(본인) 1</span></p>
+                    <p class="spec"><span>#jquery, #html5, #css3</span></p>
+                    <p class="spec"><span>#splite, #lazyloading</span></p>
                 </div>
             </div>
         </section>
