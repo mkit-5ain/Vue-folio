@@ -16,9 +16,9 @@
                     <p><span>고효율의 LP&관심사 키워드 추천</span></p>
                     <p><span>최적화 소재구현, 관심사 적정도 검사</span></p>
                     <p><span>3가지 주요기능을 담고있습니다.</span></p>
-                    <p class="people"><span>기획자 2, 디자이너 1</span></p>
+                    <p class="people first"><span>기획자 2, 디자이너 1</span></p>
                     <p class="people"><span>퍼블리셔(본인) 1, 프론트엔드개발자 1, 백엔드개발자 3</span></p>
-                    <p class="spec"><span>#vue.js, #javascript #html5</span></p>
+                    <p class="spec first"><span>#vue.js, #javascript #html5</span></p>
                     <p class="spec"><span>#css3, #oocss, #splite</span></p>
                 </div>
             </div>
@@ -33,8 +33,8 @@
                     <p><span>카페24 솔루션을 기반으로 작업하였습니다.</span></p>
                     <p><span>불필요한 요소를 최소화 하고</span></p>
                     <p><span>sticky를 사용하여 부드러운 고정 레이아웃을 연출</span></p>
-                    <p class="people"><span>기획자 1, 디자이너 1, 퍼블리셔(본인) 1</span></p>
-                    <p class="spec"><span>#jquery, #html5, #css3</span></p>
+                    <p class="people first"><span>기획자 1, 디자이너 1, 퍼블리셔(본인) 1</span></p>
+                    <p class="spec first"><span>#jquery, #html5, #css3</span></p>
                     <p class="spec"><span>#splite, #lazyloading</span></p>
                 </div>
             </div>
@@ -48,9 +48,9 @@
                     <p><span>계정,팔로워,게시물,경쟁사,해시태그 데이터 제공</span></p>
                     <p><span>게시물 예약 업로드 제공, 이벤트 댓글 추첨, 유저관리 해시태그관리</span></p>
                     <p><span>3가지 주요기능을 담고있습니다.</span></p>
-                    <p class="people"><span>기획자 3, 디자이너 2</span></p>
+                    <p class="people first"><span>기획자 3, 디자이너 2</span></p>
                     <p class="people"><span>퍼블리셔(본인) 1, 프론트엔드개발자 2, 백엔드개발자 3</span></p>
-                    <p class="spec"><span>#vue.js, #javascript, #html5</span></p>
+                    <p class="spec first"><span>#vue.js, #javascript, #html5</span></p>
                     <p class="spec"><span>#css3, #bem, #splite</span></p>
                 </div>
             </div>
@@ -65,8 +65,8 @@
                     <p><span>카페24 솔루션을 기반으로 작업하였습니다.</span></p>
                     <p><span>grid레이아웃을 사용하여 좀 더 크리에이티브하고</span></p>
                     <p><span>ux에 중점을 두고 작업을 진행하였습니다.</span></p>
-                    <p class="people"><span>기획자 1, 디자이너 1, 퍼블리셔(본인) 1</span></p>
-                    <p class="spec"><span>#jquery, #html5, #css3</span></p>
+                    <p class="people first"><span>기획자 1, 디자이너 1, 퍼블리셔(본인) 1</span></p>
+                    <p class="spec first"><span>#jquery, #html5, #css3</span></p>
                     <p class="spec"><span>#splite, #lazyloading</span></p>
                 </div>
             </div>
@@ -80,9 +80,9 @@
                     <p><span>PC,MOBILE 모든페이지 퍼블리싱하였으며</span></p>
                     <p><span>위사 솔루션을 기반으로 작업하였습니다.</span></p>
                     <p><span>불필요한 요소를 최소화 하고 최적화 작업진행</span></p>
-                    <p class="people"><span>기획자 1, 디자이너 3</span></p>
+                    <p class="people first"><span>기획자 1, 디자이너 3</span></p>
                     <p class="people"><span>퍼블리셔(본인) 1, 백엔드개발자 1</span></p>
-                    <p class="spec"><span>#jquery, #html5, #css3</span></p>
+                    <p class="spec first"><span>#jquery, #html5, #css3</span></p>
                     <p class="spec"><span>#splite, #lazyloading</span></p>
                 </div>
             </div>
@@ -97,9 +97,9 @@
                     <p><span>4개국어(한국,중국.일본,미국) 홈페이지를</span></p>
                     <p><span>메이크샵 솔루션을 기반으로 작업하였습니다.</span></p>
                     <p><span>불필요한 요소를 최소화 하고</span></p>
-                    <p class="people"><span>기획자 1, 디자이너 2</span></p>
+                    <p class="people first"><span>기획자 1, 디자이너 2</span></p>
                     <p class="people"><span>퍼블리셔(본인) 1</span></p>
-                    <p class="spec"><span>#jquery, #html5, #css3</span></p>
+                    <p class="spec first"><span>#jquery, #html5, #css3</span></p>
                     <p class="spec"><span>#splite, #lazyloading</span></p>
                 </div>
             </div>

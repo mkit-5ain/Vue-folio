@@ -211,30 +211,25 @@ $item-font-size: 8vw;
                 font-family: 'logo';
                 font-size: $item-font-size;
                 font-weight: 900;
-                color: transparent;
-                -webkit-text-stroke: 1.5px #000;
-                text-stroke: 1.5px #000;
-                -webkit-text-fill-color: transparent;
-                text-fill-color: transparent;
                 transition: opacity 0.4s;
                 white-space: nowrap;
                 cursor: pointer;
-                &::before {
-                    all: initial;
-                    counter-increment: section;
-                    content:  counter(section);
-                    position: absolute;
-                    bottom: 0px;
-                    right: 0px;
-                    color: transparent;
-                    font-size: 30px;
-                    font-family: 'logo';
-                    pointer-events: none;
-                    -webkit-text-stroke: 1.5px #111;
-                    text-stroke: 1px #000;
-                    -webkit-text-fill-color: transparent;
-                    text-fill-color: transparent;
-                }
+                // &::before {
+                //     all: initial;
+                //     counter-increment: section;
+                //     content:  counter(section);
+                //     position: absolute;
+                //     bottom: 0px;
+                //     right: 0px;
+                //     color: transparent;
+                //     font-size: 30px;
+                //     font-family: 'logo';
+                //     pointer-events: none;
+                //     -webkit-text-stroke: 1.5px #111;
+                //     text-stroke: 1px #000;
+                //     -webkit-text-fill-color: transparent;
+                //     text-fill-color: transparent;
+                // }
                 &:hover { transition-duration: 0.1s; opacity: 0; }
             }
             .exp__list--img {

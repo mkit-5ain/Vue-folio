@@ -49,7 +49,6 @@
                 top: 42%;
                 left: 7.7%;
                 width: 84.5%;
-                font-size: 30px;
                 font-weight: bold;
                 overflow: hidden;
                 div {
