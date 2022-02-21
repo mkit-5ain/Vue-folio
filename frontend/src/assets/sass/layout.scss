@@ -40,25 +40,15 @@
         }
         .image {
             .image__inner { background: rgba(255,255,255,0.25); box-shadow: 0 8px 32px 0 rgb(31 38 135 / 37%); }
-            .image__name {
-                line-height: 18px;
-                padding-top: 30px;
-                font-weight: bold;
-            }
+            .image__name { line-height: 18px; padding-top: 30px; font-weight: bold; }
         }
         .introduction { padding-left: 30px; font-weight: bold;
             p { line-height: 25px; overflow: hidden;
-                &.spec {
-                    span { color: #bd1414; }
+                &.first { padding-top: 20px; }
+                &.people,&.spec {
+                    span { border-bottom: 1px solid #111; }
                 }
-                &.people {
-                    span { color: #0b1da5; }
-                }
-                span {
-                    display: block;
-                    transition: .5s ease;
-                    transform: translate(0px, 100%);
-                }
+                span { display: inline-block; transition: .5s ease; transform: translate(0px, 100%); }
             }
         }
     }
@@ -68,32 +58,22 @@
         p {
             @for $i from 1 to 15 {
                 &:nth-child(#{$i}){
-                    span {
-                        animation-delay: $i*.1s;
-                    }
+                    span { animation-delay: $i*.1s; }
                 }
             }
             span { animation: 1s storyFadein forwards; }
         }
     }
     p { height: 2vw; overflow: hidden;
-        span {
-            display: block;
-            transition: .5s ease;
-            transform: translate(0px, 4vw);
-        }
+        span { display: block; transition: .5s ease; transform: translate(0px, 4vw); }
     }
 }
 .about { position: relative; padding-left: 21.7vw;
     &.active {
         .inner {
             .age {
-                .front {
-                    animation: 1.5s ageFrontFadein forwards;
-                }
-                .back {
-                    animation: 1.5s ageBackFadein forwards;
-                }
+                .front { animation: 1.5s ageFrontFadein forwards; }
+                .back { animation: 1.5s ageBackFadein forwards; }
             }
         }
     }
