@@ -22,9 +22,9 @@
     from { opacity: 0; transform: translate(-500px, -100px); }
     to { opacity: 1; transform: translate(-80px, 0px); }
 }
-@media screen and ( max-width: 750px ) {
+@media screen and ( max-width: 1250px ) {
 	@keyframes introTextAnimation {
-		from { opacity: 0; transform: translate(-500px, -50px); }
+		from { opacity: 0; transform: translate(-700px, -150px); }
 		to { opacity: 1; transform: translate(-5vw, 0px); }
 	}
 }

@@ -39,7 +39,7 @@
             height: 29px;
             align-items: center;
             li { padding: 0px 5px; transform: translate(0px, 1.6vw); animation: 1s navFadein forwards;
-                a { font-weight: bold; }
+                a { font-weight: bold; letter-spacing: -1px; }
                 &:nth-child(2) { margin-left: 2vw; animation-delay: .2s; }
                 &:nth-child(3) { margin-left: 2vw; animation-delay: .4s; }
                 &:nth-child(4) {

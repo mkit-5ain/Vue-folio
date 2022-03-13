@@ -34,7 +34,7 @@
                     <p><span>불필요한 요소를 최소화 하고</span></p>
                     <p><span>sticky를 사용하여 부드러운 고정 레이아웃을 연출</span></p>
                     <p class="people first"><span>기획자 1, 디자이너 1, 퍼블리셔(본인) 1</span></p>
-                    <p class="spec first"><span>#jquery, #html5, #css3</span></p>
+                    <p class="spec first"><span>#jquery, #javascript #html5, #css3</span></p>
                     <p class="spec"><span>#splite, #lazyloading</span></p>
                 </div>
             </div>
@@ -66,7 +66,7 @@
                     <p><span>grid레이아웃을 사용하여 좀 더 크리에이티브하고</span></p>
                     <p><span>ux에 중점을 두고 작업을 진행하였습니다.</span></p>
                     <p class="people first"><span>기획자 1, 디자이너 1, 퍼블리셔(본인) 1</span></p>
-                    <p class="spec first"><span>#jquery, #html5, #css3</span></p>
+                    <p class="spec first"><span>#jquery, #javascript #html5, #css3</span></p>
                     <p class="spec"><span>#splite, #lazyloading</span></p>
                 </div>
             </div>
@@ -82,7 +82,7 @@
                     <p><span>불필요한 요소를 최소화 하고 최적화 작업진행</span></p>
                     <p class="people first"><span>기획자 1, 디자이너 3</span></p>
                     <p class="people"><span>퍼블리셔(본인) 1, 백엔드개발자 1</span></p>
-                    <p class="spec first"><span>#jquery, #html5, #css3</span></p>
+                    <p class="spec first"><span>#jquery, #javascript #html5, #css3</span></p>
                     <p class="spec"><span>#splite, #lazyloading</span></p>
                 </div>
             </div>
@@ -99,7 +99,7 @@
                     <p><span>불필요한 요소를 최소화 하고</span></p>
                     <p class="people first"><span>기획자 1, 디자이너 2</span></p>
                     <p class="people"><span>퍼블리셔(본인) 1</span></p>
-                    <p class="spec first"><span>#jquery, #html5, #css3</span></p>
+                    <p class="spec first"><span>#jquery, #javascript #html5, #css3</span></p>
                     <p class="spec"><span>#splite, #lazyloading</span></p>
                 </div>
             </div>
@@ -141,13 +141,13 @@
                         <p><span>More</span></p>
                     </div>
                 </router-link>
-                <p class="item scale"><span>Goodirect</span></p>
-                <p class="item scale"><span>SWMP</span></p>
-                <p class="item scale"><span>GreenCar</span></p>
-                <p class="item scale"><span>Creative lib</span></p>
-                <p class="item scale"><span>Veracity</span></p>
-                <p class="item scale"><span>Wando</span></p>
-                <p class="item scale"><span>Hj-Retail</span></p>
+                <p class="item scale"><span><a href="https://github.com/mkit-5ain/goodirect" target="_blank">Goodirect</a></span></p>
+                <p class="item scale"><span><a href="http://swmp.co.kr/" target="_blank">SWMP</a></span></p>
+                <p class="item scale"><span><a href="">GreenCar</a></span></p>
+                <p class="item scale"><span><a href="">Creative lib</a></span></p>
+                <p class="item scale"><span><a href="">Veracity</a></span></p>
+                <p class="item scale"><span><a href="">Wando</a></span></p>
+                <p class="item scale"><span><a href="">Hj-Retail</a></span></p>
             </div>
         </section>
     </section>
