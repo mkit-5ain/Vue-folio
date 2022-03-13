@@ -1,4 +1,7 @@
-@media screen and ( max-width: 750px ) {
+@media screen and ( max-width: 1250px ) {
+    .component__style { margin: 40vw 6vw; }
+    .circle,.cursor { display: none; }
+
     #app {
         #nav { padding-top: 20px;
             ul {
@@ -6,14 +9,19 @@
             }
         }
         #header {
-            .email { bottom: 33vw; font-size: 20px; }
+            .email { bottom: 33vw; font-size: 18px; }
             .production { bottom: 14vw; line-height: normal; font-size: 14px;
                 .text {
                     span { transform: translate(0px, 15px); }
                 }
             }
-            .name { top: auto; bottom: 50%;
-                span { line-height: 11vw; font-size: 13.5vw; }
+            .name {
+                top: auto;
+                right: 0%;
+                bottom: 50%;
+                width: calc( 100% - 12vw);
+                padding: 0 6vw;
+                span { line-height: 11vw; font-size: 12vw; text-align: right; }
             }
             .point { top: auto; bottom: 45%; }
             .discription { bottom: 14vw;
@@ -26,6 +34,7 @@
             }
         }
         .title {
+            display: inline-block;
             position: static;
             padding-bottom: 2vw;
             margin-bottom: 20vw;
@@ -34,22 +43,56 @@
         #home {
             .work {
                 .item { flex-direction: column;
+                    &.t3 { text-align: left; }
                     .image {
                         .image__inner { width: 100%;
                             img { width: 100%; }
                         }
-                        .image__name { padding-top: 10px; font-size: 12px; }
+                        .image__name { padding-top: 10vw }
                     }
-                    .discription { padding-left: 0px; padding-top: 30px; }
+                    .introduction { padding: 20px 0px 0px 0px;
+                        p { font-size: 13px; line-height: 5vw;
+                            &.first { padding-top: 5vw ;}
+                        }
+                    }
                 }
             }
             .contact { padding-left: 0px;
                 .inner { font-size: 8vw;
                     .sub-title {
-                        > p { padding-left: 0px; }
+                        > p { padding-left: 0px; padding-right: 5px; }
                     }
-                    .item {
+                    .item { padding-bottom: 2vw; margin-bottom: 4vw;
                         &:after { bottom: 2vw; }
+                    }
+                }
+            }
+            .story { margin: 30vw 3vw; font-size: 3.5vw;
+                p { height: 6vw; line-height: 7vw; }
+            }
+            .about { padding: 0px;
+                .inner {
+                    .name, .phone { font-size: 12vw; letter-spacing: -1px; }
+                    .age {
+                        height: auto;
+                        font-size: 16vw;
+                        .front, .back { height: 21vw; letter-spacing: 3vw; transform: translate(0px, 0px); }
+                        @keyframes ageFrontFadein {
+                        	to {
+                        		transform: translate(0px, -21.4vw);
+                        	}
+                        	from {
+                        		transform: translate(0px, 0px);
+                        	}
+                        }
+                        @keyframes ageBackFadein {
+                        	to {
+                        		transform: translate(0px, -63.9vw);
+                        	}
+                        	from {
+                        		transform: translate(0px, 0px);
+                        	}
+                        }
                     }
                 }
             }
@@ -59,8 +102,9 @@
                 .prologue--text {
                     height: 17vw;
                     line-height: 17vw;
-                    font-size: 18vw;
+                    font-size: 17vw;
                     letter-spacing: 0px;
+                    transition: 5s cubic-bezier(0.74, 0.51, 0.51, 1.26);
                     &.effect-line {
                         &:after {
                             left: 29vw;

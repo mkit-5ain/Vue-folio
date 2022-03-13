@@ -4,6 +4,7 @@ body {
     color: $black-color;
     background: $bg-color;
     transition: .5s ease-in-out;
+    letter-spacing: -.5px;
     &::-webkit-scrollbar {
         display: none;
     }
@@ -14,6 +15,6 @@ ul,li,ol { list-style: none; }
 textarea { padding: 0px; resize: none; }
 img { vertical-align: top; }
 table th { font-weight: normal; }
-a { color: $black-color; text-decoration: auto; }
+a { color: $black-color; text-decoration: none; }
 i { font-style: normal; }
 button { background: none; border: 0px; padding: 0px; margin: 0px; }

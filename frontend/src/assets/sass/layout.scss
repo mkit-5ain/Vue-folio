@@ -46,7 +46,7 @@
             p { line-height: 25px; overflow: hidden;
                 &.first { padding-top: 20px; }
                 &.people,&.spec {
-                    span { border-bottom: 1px solid #111; }
+                    span { border-bottom: 1px dotted #111; }
                 }
                 span { display: inline-block; transition: .5s ease; transform: translate(0px, 100%); }
             }
@@ -151,6 +151,7 @@
             padding-bottom: 1vw;
             margin-bottom: 1vw;
             border-bottom: 1px solid #1d1d1b;
+            a { display: block; }
             &:before {
                 content: '';
                 position: absolute;
