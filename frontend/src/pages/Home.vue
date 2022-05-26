@@ -8,8 +8,10 @@
             <Title titleText="selected work"></Title>
             <div class="item t1 scroll-handler">
                 <div class="image">
-                    <div class="image__inner"><img src="@/assets/image/common/project/pickdata/pickdata_thumb.png" alt=""></div>
-                    <p class="image__name">PickData - SNS Solution</p>
+                    <a href="https://github.com/mkit-5ain/pickdata" target="_blank">
+                        <div class="image__inner"><img src="@/assets/image/common/project/pickdata/pickdata_thumb.png" alt=""></div>
+                        <p class="image__name">PickData - SNS Solution</p>
+                    </a>
                 </div>
                 <div class="introduction">
                     <p><span>페이스북 광고 솔루션으로</span></p>
@@ -21,11 +23,14 @@
                     <p class="spec first"><span>#vue.js, #javascript #html5</span></p>
                     <p class="spec"><span>#css3, #oocss, #splite</span></p>
                 </div>
+
             </div>
             <div class="item t2 scroll-handler">
                 <div class="image">
-                    <div class="image__inner"><img src="@/assets/image/common/project/noice/noice_thumb.png" alt=""></div>
-                    <p class="image__name">NOICE - Clothing</p>
+                    <a href="https://noice.co.kr/" target="_blank">
+                        <div class="image__inner"><img src="@/assets/image/common/project/noice/noice_thumb.png" alt=""></div>
+                        <p class="image__name">NOICE - Clothing</p>
+                    </a>
                 </div>
                 <div class="introduction">
                     <p><span>워크웨어 패션의류 쇼핑몰</span></p>
@@ -40,8 +45,10 @@
             </div>
             <div class="item t3 scroll-handler">
                 <div class="image">
-                    <div class="image__inner"><img src="@/assets/image/common/project/bigcial/bigcial_thumb.png" alt=""></div>
-                    <p class="image__name">BigCial - SNS Solution</p>
+                    <a href="https://github.com/mkit-5ain/bigcial" target="_blank">
+                        <div class="image__inner"><img src="@/assets/image/common/project/bigcial/bigcial_thumb.png" alt=""></div>
+                        <p class="image__name">BigCial - SNS Solution</p>
+                    </a>
                 </div>
                 <div class="introduction">
                     <p><span>인스타그램 운영의 첫 걸음, bigcial</span></p>
@@ -56,8 +63,10 @@
             </div>
             <div class="item t1 scroll-handler">
                 <div class="image">
-                    <div class="image__inner"><img src="@/assets/image/common/project/asof/asof_thumb.png" alt=""></div>
-                    <p class="image__name">A-SOF - Clothing</p>
+                    <a href="https://a-sof.com/" target="_blank">
+                        <div class="image__inner"><img src="@/assets/image/common/project/asof/asof_thumb.png" alt=""></div>
+                        <p class="image__name">A-SOF - Clothing</p>
+                    </a>
                 </div>
                 <div class="introduction">
                     <p><span>스트릿 기반 패션의류 쇼핑몰</span></p>
@@ -72,8 +81,10 @@
             </div>
             <div class="item t2 scroll-handler">
                 <div class="image">
-                    <div class="image__inner"><img src="@/assets/image/common/project/slowglow/slowglow_thumb.png" alt=""></div>
-                    <p class="image__name">SlowGlow - Health functional food.</p>
+                    <a href="https://www.slowglow.co.kr/" target="_blank">
+                        <div class="image__inner"><img src="@/assets/image/common/project/slowglow/slowglow_thumb.png" alt=""></div>
+                        <p class="image__name">SlowGlow - Health functional food.</p>
+                    </a>
                 </div>
                 <div class="introduction">
                     <p><span>건강기능식품 쇼핑몰</span></p>
@@ -88,8 +99,10 @@
             </div>
             <div class="item t3 scroll-handler">
                 <div class="image">
-                    <div class="image__inner"><img src="@/assets/image/common/project/mula/mula_thumb.png" alt=""></div>
-                    <p class="image__name">MulaWear - SportsWear</p>
+                    <a href="https://www.mulawear.com/" target="_blank">
+                        <div class="image__inner"><img src="@/assets/image/common/project/mula/mula_thumb.png" alt=""></div>
+                        <p class="image__name">MulaWear - SportsWear</p>
+                    </a>
                 </div>
                 <div class="introduction">
                     <p><span>스포츠의류 쇼핑몰</span></p>
@@ -143,11 +156,12 @@
                 </router-link>
                 <p class="item scale"><span><a href="https://github.com/mkit-5ain/goodirect" target="_blank">Goodirect</a></span></p>
                 <p class="item scale"><span><a href="http://swmp.co.kr/" target="_blank">SWMP</a></span></p>
-                <p class="item scale"><span><a href="">GreenCar</a></span></p>
-                <p class="item scale"><span><a href="">Creative lib</a></span></p>
-                <p class="item scale"><span><a href="">Veracity</a></span></p>
-                <p class="item scale"><span><a href="">Wando</a></span></p>
-                <p class="item scale"><span><a href="">Hj-Retail</a></span></p>
+                <p class="item scale"><span><a href="https://www.greencar.co.kr/index.do" target="_blank">GreenCar</a></span></p>
+                <p class="item scale"><span><a href="https://github.com/mkit-5ain/creativelibrary" target="_blank">Creative lib</a></span></p>
+                <p class="item scale"><span><a href="http://www.veracity.co.kr/" target="_blank">Veracity</a></span></p>
+                <p class="item scale"><span><a href="http://wakorea.kr/" target="_blank">Wando</a></span></p>
+                <p class="item scale"><span><a href="http://www.hjretail.com/" target="_blank">Hj-Retail</a></span></p>
+                <p class="item scale none"><span><a target="_blank">Lotto-Sports</a></span></p>
             </div>
         </section>
     </section>

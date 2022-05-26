@@ -3,8 +3,18 @@
         <ui-prologue/>
         <ul class="exp__list__wrap">
             <li class="exp__list component__style">
-                <a class="exp__list--link link" href="">SLOW-GLOW</a>
-                <img class="exp__list--img" src="" />
+                <a class="exp__list--link link" href="https://gospheres.com/" target="_blank">GOSPHERES</a>
+                <div class="exp__list--marquee">
+                    <div class="marquee--text">
+                        <div class="text">GOSPHERES</div>
+                        <div class="text">GOSPHERES</div>
+                        <div class="text">GOSPHERES</div>
+                        <div class="text">GOSPHERES</div>
+                    </div>
+                </div>
+            </li>
+            <li class="exp__list component__style">
+                <a class="exp__list--link link" href="https://www.slowglow.co.kr/" target="_blank">SLOW-GLOW</a>
                 <div class="exp__list--marquee">
                     <div class="marquee--text">
                         <div class="text">SLOW-GLOW</div>
@@ -15,8 +25,7 @@
                 </div>
             </li>
             <li class="exp__list component__style">
-                <a class="exp__list--link link" href="">NOICE</a>
-                <img class="exp__list--img" src="" />
+                <a class="exp__list--link link" href="https://noice.co.kr/" target="_blank">NOICE</a>
                 <div class="exp__list--marquee">
                     <div class="marquee--text">
                         <div class="text">NOICE</div>
@@ -27,8 +36,7 @@
                 </div>
             </li>
             <li class="exp__list component__style">
-                <a class="exp__list--link link" href="">A-SOF</a>
-                <img class="exp__list--img" src="" />
+                <a class="exp__list--link link" href="https://a-sof.com/" target="_blank">A-SOF</a>
                 <div class="exp__list--marquee">
                     <div class="marquee--text">
                         <div class="text">A-SOF</div>
@@ -39,8 +47,7 @@
                 </div>
             </li>
             <li class="exp__list component__style">
-                <a class="exp__list--link link" href="">PICKDATA</a>
-                <img class="exp__list--img" src="" />
+                <a class="exp__list--link link" href="https://github.com/mkit-5ain/pickdata" target="_blank">PICKDATA</a>
                 <div class="exp__list--marquee">
                     <div class="marquee--text">
                         <div class="text">PICKDATA</div>
@@ -51,8 +58,7 @@
                 </div>
             </li>
             <li class="exp__list component__style">
-                <a class="exp__list--link link" href="">BIGCIAL</a>
-                <img class="exp__list--img" src="" />
+                <a class="exp__list--link link" href="https://github.com/mkit-5ain/bigcial" target="_blank">BIGCIAL</a>
                 <div class="exp__list--marquee">
                     <div class="marquee--text">
                         <div class="text">BIGCIAL</div>
@@ -63,8 +69,7 @@
                 </div>
             </li>
             <li class="exp__list component__style">
-                <a class="exp__list--link link" href="">GOOD-DIRECT</a>
-                <img class="exp__list--img" src="" />
+                <a class="exp__list--link link" href="https://github.com/mkit-5ain/goodirect" target="_blank">GOOD-DIRECT</a>
                 <div class="exp__list--marquee">
                     <div class="marquee--text">
                         <div class="text">GOOD-DIRECT</div>
@@ -75,8 +80,7 @@
                 </div>
             </li>
             <li class="exp__list component__style">
-                <a class="exp__list--link link" href="">GREENCAR</a>
-                <img class="exp__list--img" src="" />
+                <a class="exp__list--link link" href="https://www.greencar.co.kr/index.do" target="_blank">GREENCAR</a>
                 <div class="exp__list--marquee">
                     <div class="marquee--text">
                         <div class="text">GREENCAR</div>
@@ -87,8 +91,7 @@
                 </div>
             </li>
             <li class="exp__list component__style">
-                <a class="exp__list--link link" href="">MULAWEAR</a>
-                <img class="exp__list--img" src="" />
+                <a class="exp__list--link link" href="https://www.mulawear.com/" target="_blank">MULAWEAR</a>
                 <div class="exp__list--marquee">
                     <div class="marquee--text">
                         <div class="text">MULAWEAR</div>
@@ -99,8 +102,7 @@
                 </div>
             </li>
             <li class="exp__list component__style">
-                <a class="exp__list--link link" href="">CREATIVE-LIB</a>
-                <img class="exp__list--img" src="" />
+                <a class="exp__list--link link" href="https://github.com/mkit-5ain/creativelibrary" target="_blank">CREATIVE-LIB</a>
                 <div class="exp__list--marquee">
                     <div class="marquee--text">
                         <div class="text">CREATIVE-LIB</div>
@@ -111,20 +113,7 @@
                 </div>
             </li>
             <li class="exp__list component__style">
-                <a class="exp__list--link link" href="">LOTTO-SPORTS</a>
-                <img class="exp__list--img" src="" />
-                <div class="exp__list--marquee">
-                    <div class="marquee--text">
-                        <div class="text">LOTTO-SPORTS</div>
-                        <div class="text">LOTTO-SPORTS</div>
-                        <div class="text">LOTTO-SPORTS</div>
-                        <div class="text">LOTTO-SPORTS</div>
-                    </div>
-                </div>
-            </li>
-            <li class="exp__list component__style">
-                <a class="exp__list--link link" href="">VERACITY</a>
-                <img class="exp__list--img" src="" />
+                <a class="exp__list--link link" href="http://www.veracity.co.kr/" target="_blank">VERACITY</a>
                 <div class="exp__list--marquee">
                     <div class="marquee--text">
                         <div class="text">VERACITY</div>
@@ -135,8 +124,7 @@
                 </div>
             </li>
             <li class="exp__list component__style">
-                <a class="exp__list--link link" href="">SWMP</a>
-                <img class="exp__list--img" src="" />
+                <a class="exp__list--link link" href="http://swmp.co.kr/" target="_blank">SWMP</a>
                 <div class="exp__list--marquee">
                     <div class="marquee--text">
                         <div class="text">SWMP</div>
@@ -147,8 +135,7 @@
                 </div>
             </li>
             <li class="exp__list component__style">
-                <a class="exp__list--link link" href="">WANDO</a>
-                <img class="exp__list--img" src="" />
+                <a class="exp__list--link link" href="http://wakorea.kr/" target="_blank">WANDO</a>
                 <div class="exp__list--marquee">
                     <div class="marquee--text">
                         <div class="text">WANDO</div>
@@ -159,14 +146,24 @@
                 </div>
             </li>
             <li class="exp__list component__style">
-                <a class="exp__list--link link" href="">HJ-RETAIL</a>
-                <img class="exp__list--img" src="" />
+                <a class="exp__list--link link" href="http://www.hjretail.com/" target="_blank">HJ-RETAIL</a>
                 <div class="exp__list--marquee">
                     <div class="marquee--text">
                         <div class="text">HJ-RETAIL</div>
                         <div class="text">HJ-RETAIL</div>
                         <div class="text">HJ-RETAIL</div>
                         <div class="text">HJ-RETAIL</div>
+                    </div>
+                </div>
+            </li>
+            <li class="exp__list component__style none">
+                <a class="exp__list--link link" target="_blank">LOTTO-SPORTS</a>
+                <div class="exp__list--marquee">
+                    <div class="marquee--text">
+                        <div class="text">LOTTO-SPORTS</div>
+                        <div class="text">LOTTO-SPORTS</div>
+                        <div class="text">LOTTO-SPORTS</div>
+                        <div class="text">LOTTO-SPORTS</div>
                     </div>
                 </div>
             </li>
