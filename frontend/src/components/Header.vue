@@ -112,7 +112,7 @@
                 }
                 span {
                     animation: 1s productionFadein forwards; animation-delay: 2.1s;
-                    transform: translate(0px, 2.3vw);
+                    transform: translate(0px, 100%);
                 }
             }
         }
